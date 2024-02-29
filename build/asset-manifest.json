@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.edbcd280.css",
+    "main.js": "/static/js/main.fdc84519.js",
+    "static/js/787.fdbf51af.chunk.js": "/static/js/787.fdbf51af.chunk.js",
+    "static/media/aproposbg.jpg": "/static/media/aproposbg.c21a32c0d9042c14f9b5.jpg",
+    "index.html": "/index.html",
+    "main.edbcd280.css.map": "/static/css/main.edbcd280.css.map",
+    "main.fdc84519.js.map": "/static/js/main.fdc84519.js.map",
+    "787.fdbf51af.chunk.js.map": "/static/js/787.fdbf51af.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.edbcd280.css",
+    "static/js/main.fdc84519.js"
+  ]
+}
