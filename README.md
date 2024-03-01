@@ -1,2 +1,0 @@
-#korumaak
-# hosting-korumaak
