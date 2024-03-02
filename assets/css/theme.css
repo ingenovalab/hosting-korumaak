@@ -14904,6 +14904,16 @@ button:focus {
   opacity: 1;
 }
 
+.card-image {
+  height: 470px;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .card-image {
+    height: 340px;
+  }
+}
 .card-horizontal .card-img-top,
 .card-horizontal .card-img-bottom {
   min-height: 12rem;
@@ -17811,6 +17821,15 @@ h1.text-light .nav-link.disabled, h1.text-white .nav-link.disabled, h2.text-ligh
   background-size: cover !important;
 }
 
+.bg-size {
+  min-height: 65vh;
+}
+
+@media (max-width: 768px) {
+  .bg-size {
+    min-height: 50vh;
+  }
+}
 _:-ms-lang(x), .jarallax .jarallax-img {
   margin: 0 !important;
   position: absolute !important;
