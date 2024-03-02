@@ -18,7 +18,7 @@
     <meta name="msapplication-TileColor" content="#766df4">
     <meta name="theme-color" content="#ffffff">
     <!-- Page loading styles-->
-    <!--style>
+    <style>
       .page-loading {
         position: fixed;
         top: 0;
@@ -84,19 +84,19 @@
         }
       }
       
-    </style-->
+    </style>
     <!-- Page loading scripts-->
-    <!--script>
+    <script>
       (function () {
         window.onload = function () {
           var preloader = document.querySelector('.page-loading');
           preloader.classList.remove('active');
           setTimeout(function () {
             preloader.remove();
-          }, 2000);
+          }, 1000);
         };
       })();
-    </script-->
+    </script>
 
     <!-- Google Tag Manager-->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -116,11 +116,11 @@
     <!-- End Google Tag Manager (noscript) -->
     
     <!-- Page loading spinner-->
-    <!--div class="page-loading active">
+    <div class="page-loading active">
       <div class="page-loading-inner">
-        <div class="page-spinner"></div><span>Loading...</span>
+        <div class="page-spinner"></div><span>En attente d'énergie...</span>
       </div>
-    </div-->
+    </div>
     <main class="page-wrapper">
       <!-- Sign In Modal-->
       <div class="modal fade" id="korumaak-modal" tabindex="-1" aria-hidden="true">
