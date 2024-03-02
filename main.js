@@ -149,7 +149,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-"use strict";
 // https://www.positronx.io/angular-seo-set-dynamic-page-title-meta-tags-in-universal-app/
 class AppComponent {
     constructor(platformId, router, metaTagService, canonicalService) {
@@ -175,9 +174,10 @@ class AppComponent {
             { charset: 'UTF-8' },
         ]);
         if (Object(_angular_common__WEBPACK_IMPORTED_MODULE_2__["isPlatformBrowser"])(this.platformId)) {
+            Object(_utils_loadjs__WEBPACK_IMPORTED_MODULE_1__["getScript"])('assets/js/src/theme.min.js');
             // recall swiper and theme required js
             this.jsub = Object(_utils_loadjs__WEBPACK_IMPORTED_MODULE_1__["loadAllJs"])(this.router);
-            this.canonicalService.setCanonicalURL();
+            //this.canonicalService.setCanonicalURL();
         }
     }
     ngOnDestroy() {
@@ -2709,12 +2709,13 @@ document.addEventListener('DOMContentLoaded', () => {
 /*!*****************************!*\
   !*** ./src/utils/loadjs.ts ***!
   \*****************************/
-/*! exports provided: loadAllJs */
+/*! exports provided: loadAllJs, getScript */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "loadAllJs", function() { return loadAllJs; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getScript", function() { return getScript; });
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
 /* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rxjs/operators */ "./node_modules/rxjs/_esm2015/operators/index.js");
 /**
@@ -2736,8 +2737,12 @@ __webpack_require__.r(__webpack_exports__);
 const loadAllJs = (router) => {
     return router.events
         .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_1__["filter"])(event => event instanceof _angular_router__WEBPACK_IMPORTED_MODULE_0__["NavigationEnd"]))
-        .subscribe(event => {
-        getScript('assets/js/src/theme.min.js');
+        .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_1__["pairwise"])())
+        .subscribe((event) => {
+        var _a, _b;
+        if (((_a = event[0]) === null || _a === void 0 ? void 0 : _a.url.split('#')[0]) != ((_b = event[1]) === null || _b === void 0 ? void 0 : _b.url.split('#')[0])) {
+            getScript('assets/js/src/theme.min.js');
+        }
     }, err => console.log('There was an error when loading js file'));
 };
 /**
