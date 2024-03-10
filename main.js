@@ -79,10 +79,10 @@ const routes = [
         }
     },
     {
-        path: 'notre-equipe',
+        path: 'qui-sommes-nous',
         component: _pages_join_us_join_us_component__WEBPACK_IMPORTED_MODULE_5__["JoinUsComponent"],
         data: {
-            pageTitle: 'Notre équipe'
+            pageTitle: 'Qui sommes-nous ?'
         }
     },
     {
@@ -367,7 +367,6 @@ function FlipcardComponent_p_9_Template(rf, ctx) { if (rf & 1) {
 function FlipcardComponent_a_10_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "a", 15);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "fa-icon", 16);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } if (rf & 2) {
     const ctx_r5 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
@@ -375,7 +374,7 @@ function FlipcardComponent_a_10_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate"]("fragment", ctx_r5.data.actionUrlFragment);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngStyle", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction2"](4, _c0, ctx_r5.data.backColor, ctx_r5.data.backBgColor));
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("", ctx_r5.data.actionTitle, " ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx_r5.data.actionTitle);
 } }
 const _c3 = function (a0) { return { "background-color": a0 }; };
 class FlipcardComponent {
@@ -395,7 +394,7 @@ class FlipcardComponent {
     }
 }
 FlipcardComponent.ɵfac = function FlipcardComponent_Factory(t) { return new (t || FlipcardComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_1__["Router"])); };
-FlipcardComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: FlipcardComponent, selectors: [["app-flipcard"]], inputs: { data: "data" }, decls: 11, vars: 13, consts: [[1, "card-flip", "card", "shadow-sm", "border-0"], [1, "card-front", "d-flex", "align-items-center", 3, "ngStyle"], [1, "card-body", "text-center"], [3, "src", "ngStyle", 4, "ngIf"], ["class", "mt-5", 3, "ngStyle", 4, "ngIf"], [3, "ngStyle", 4, "ngIf"], [1, "card-back", "d-flex", "align-items-center", 3, "ngStyle"], [1, "card-body"], [4, "ngIf"], [3, "ngClass", 4, "ngIf"], ["class", "btn", 3, "routerLink", "fragment", "ngStyle", 4, "ngIf"], [3, "src", "ngStyle"], [1, "mt-5", 3, "ngStyle"], [3, "ngStyle"], [3, "ngClass"], [1, "btn", 3, "routerLink", "fragment", "ngStyle"], ["icon", "arrow-right", 1, "ml-1"]], template: function FlipcardComponent_Template(rf, ctx) { if (rf & 1) {
+FlipcardComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: FlipcardComponent, selectors: [["app-flipcard"]], inputs: { data: "data" }, decls: 11, vars: 13, consts: [[1, "card-flip", "card", "shadow-sm", "border-0"], [1, "card-front", "d-flex", "align-items-center", 3, "ngStyle"], [1, "card-body", "text-center"], [3, "src", "ngStyle", 4, "ngIf"], ["class", "mt-5", 3, "ngStyle", 4, "ngIf"], [3, "ngStyle", 4, "ngIf"], [1, "card-back", "d-flex", "align-items-center", 3, "ngStyle"], [1, "card-body"], [4, "ngIf"], [3, "ngClass", 4, "ngIf"], ["class", "btn", 3, "routerLink", "fragment", "ngStyle", 4, "ngIf"], [3, "src", "ngStyle"], [1, "mt-5", 3, "ngStyle"], [3, "ngStyle"], [3, "ngClass"], [1, "btn", 3, "routerLink", "fragment", "ngStyle"]], template: function FlipcardComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
@@ -408,7 +407,7 @@ FlipcardComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefine
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "div", 7);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](8, FlipcardComponent_h5_8_Template, 2, 1, "h5", 8);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](9, FlipcardComponent_p_9_Template, 2, 4, "p", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](10, FlipcardComponent_a_10_Template, 3, 7, "a", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](10, FlipcardComponent_a_10_Template, 2, 7, "a", 10);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -429,7 +428,7 @@ FlipcardComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefine
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.data.backText);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.data.actionUrl);
-    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_2__["NgStyle"], _angular_common__WEBPACK_IMPORTED_MODULE_2__["NgIf"], _angular_common__WEBPACK_IMPORTED_MODULE_2__["NgClass"]], styles: [".card-flip[_ngcontent-%COMP%]    > div[_ngcontent-%COMP%] {\n    -webkit-backface-visibility: hidden;\n            backface-visibility: hidden;\n    transition: transform 400ms;\n    transition-timing-function: linear;\n    width: 100%;\n    height: 100%;\n    min-height: 20em;\n    margin: 0;\n    cursor: pointer;\n    border-radius: 0.5rem;\n}\n  \n  \n  .card-front[_ngcontent-%COMP%] {\n    transform: rotateY(0deg);\n    background-image: url('flip_box02_03.png');\n    background-repeat: no-repeat;\n    background-position: left 20%;\n    img {\n        height: 6em;\n        width: auto;\n    }\n  }\n  \n  \n  .card-back[_ngcontent-%COMP%] {\n    transform: rotateY(180deg);\n    position: absolute;\n    top: 0;\n  }\n  \n  \n  .card-flip[_ngcontent-%COMP%]:hover   .card-front[_ngcontent-%COMP%] {\n    transform: rotateY(-180deg);\n  }\n  \n  \n  .card-flip[_ngcontent-%COMP%]:hover   .card-back[_ngcontent-%COMP%] {\n    transform: rotateY(0deg);\n  }\n  \n  \n  .text-with-dots[_ngcontent-%COMP%] {\n    display: -webkit-box;\n    max-width: 98%;\n    -webkit-line-clamp: 7;\n    -webkit-box-orient: vertical;\n    overflow: hidden !important;\n  }\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9mbGlwY2FyZC9mbGlwY2FyZC5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksbUNBQTJCO1lBQTNCLDJCQUEyQjtJQUMzQiwyQkFBMkI7SUFDM0Isa0NBQWtDO0lBQ2xDLFdBQVc7SUFDWCxZQUFZO0lBQ1osZ0JBQWdCO0lBQ2hCLFNBQVM7SUFDVCxlQUFlO0lBQ2YscUJBQXFCO0FBQ3pCOzs7RUFHRTtJQUNFLHdCQUF3QjtJQUN4QiwwQ0FBZ0U7SUFDaEUsNEJBQTRCO0lBQzVCLDZCQUE2QjtJQUM3QjtRQUNJLFdBQVc7UUFDWCxXQUFXO0lBQ2Y7RUFDRjs7O0VBRUE7SUFDRSwwQkFBMEI7SUFDMUIsa0JBQWtCO0lBQ2xCLE1BQU07RUFDUjs7O0VBRUE7SUFDRSwyQkFBMkI7RUFDN0I7OztFQUVBO0lBQ0Usd0JBQXdCO0VBQzFCOzs7RUFFQTtJQUNFLG9CQUFvQjtJQUNwQixjQUFjO0lBQ2QscUJBQXFCO0lBQ3JCLDRCQUE0QjtJQUM1QiwyQkFBMkI7RUFDN0IiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL2ZsaXBjYXJkL2ZsaXBjYXJkLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuY2FyZC1mbGlwID4gZGl2IHtcbiAgICBiYWNrZmFjZS12aXNpYmlsaXR5OiBoaWRkZW47XG4gICAgdHJhbnNpdGlvbjogdHJhbnNmb3JtIDQwMG1zO1xuICAgIHRyYW5zaXRpb24tdGltaW5nLWZ1bmN0aW9uOiBsaW5lYXI7XG4gICAgd2lkdGg6IDEwMCU7XG4gICAgaGVpZ2h0OiAxMDAlO1xuICAgIG1pbi1oZWlnaHQ6IDIwZW07XG4gICAgbWFyZ2luOiAwO1xuICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICBib3JkZXItcmFkaXVzOiAwLjVyZW07XG59XG4gIFxuICBcbiAgLmNhcmQtZnJvbnQge1xuICAgIHRyYW5zZm9ybTogcm90YXRlWSgwZGVnKTtcbiAgICBiYWNrZ3JvdW5kLWltYWdlOiB1cmwoJy4uLy4uLy4uL2Fzc2V0cy9pY29ucy9mbGlwX2JveDAyXzAzLnBuZycpO1xuICAgIGJhY2tncm91bmQtcmVwZWF0OiBuby1yZXBlYXQ7XG4gICAgYmFja2dyb3VuZC1wb3NpdGlvbjogbGVmdCAyMCU7XG4gICAgaW1nIHtcbiAgICAgICAgaGVpZ2h0OiA2ZW07XG4gICAgICAgIHdpZHRoOiBhdXRvO1xuICAgIH1cbiAgfVxuICBcbiAgLmNhcmQtYmFjayB7XG4gICAgdHJhbnNmb3JtOiByb3RhdGVZKDE4MGRlZyk7XG4gICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgIHRvcDogMDtcbiAgfVxuICBcbiAgLmNhcmQtZmxpcDpob3ZlciAuY2FyZC1mcm9udCB7XG4gICAgdHJhbnNmb3JtOiByb3RhdGVZKC0xODBkZWcpO1xuICB9XG4gIFxuICAuY2FyZC1mbGlwOmhvdmVyIC5jYXJkLWJhY2sge1xuICAgIHRyYW5zZm9ybTogcm90YXRlWSgwZGVnKTtcbiAgfVxuICBcbiAgLnRleHQtd2l0aC1kb3RzIHtcbiAgICBkaXNwbGF5OiAtd2Via2l0LWJveDtcbiAgICBtYXgtd2lkdGg6IDk4JTtcbiAgICAtd2Via2l0LWxpbmUtY2xhbXA6IDc7XG4gICAgLXdlYmtpdC1ib3gtb3JpZW50OiB2ZXJ0aWNhbDtcbiAgICBvdmVyZmxvdzogaGlkZGVuICFpbXBvcnRhbnQ7XG4gIH0iXX0= */"] });
+    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_2__["NgStyle"], _angular_common__WEBPACK_IMPORTED_MODULE_2__["NgIf"], _angular_common__WEBPACK_IMPORTED_MODULE_2__["NgClass"], _angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterLinkWithHref"]], styles: [".card-flip[_ngcontent-%COMP%]    > div[_ngcontent-%COMP%] {\n    -webkit-backface-visibility: hidden;\n            backface-visibility: hidden;\n    transition: transform 400ms;\n    transition-timing-function: linear;\n    width: 100%;\n    height: 100%;\n    min-height: 20em;\n    margin: 0;\n    cursor: pointer;\n    border-radius: 0.5rem;\n}\n  \n  \n  .card-front[_ngcontent-%COMP%] {\n    transform: rotateY(0deg);\n    background-image: url('flip_box02_03.png');\n    background-repeat: no-repeat;\n    background-position: left 20%;\n    img {\n        height: 6em;\n        width: auto;\n    }\n  }\n  \n  \n  .card-back[_ngcontent-%COMP%] {\n    transform: rotateY(180deg);\n    position: absolute;\n    top: 0;\n  }\n  \n  \n  .card-flip[_ngcontent-%COMP%]:hover   .card-front[_ngcontent-%COMP%] {\n    transform: rotateY(-180deg);\n  }\n  \n  \n  .card-flip[_ngcontent-%COMP%]:hover   .card-back[_ngcontent-%COMP%] {\n    transform: rotateY(0deg);\n  }\n  \n  \n  .text-with-dots[_ngcontent-%COMP%] {\n    display: -webkit-box;\n    max-width: 98%;\n    -webkit-line-clamp: 7;\n    -webkit-box-orient: vertical;\n    overflow: hidden !important;\n  }\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9mbGlwY2FyZC9mbGlwY2FyZC5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksbUNBQTJCO1lBQTNCLDJCQUEyQjtJQUMzQiwyQkFBMkI7SUFDM0Isa0NBQWtDO0lBQ2xDLFdBQVc7SUFDWCxZQUFZO0lBQ1osZ0JBQWdCO0lBQ2hCLFNBQVM7SUFDVCxlQUFlO0lBQ2YscUJBQXFCO0FBQ3pCOzs7RUFHRTtJQUNFLHdCQUF3QjtJQUN4QiwwQ0FBZ0U7SUFDaEUsNEJBQTRCO0lBQzVCLDZCQUE2QjtJQUM3QjtRQUNJLFdBQVc7UUFDWCxXQUFXO0lBQ2Y7RUFDRjs7O0VBRUE7SUFDRSwwQkFBMEI7SUFDMUIsa0JBQWtCO0lBQ2xCLE1BQU07RUFDUjs7O0VBRUE7SUFDRSwyQkFBMkI7RUFDN0I7OztFQUVBO0lBQ0Usd0JBQXdCO0VBQzFCOzs7RUFFQTtJQUNFLG9CQUFvQjtJQUNwQixjQUFjO0lBQ2QscUJBQXFCO0lBQ3JCLDRCQUE0QjtJQUM1QiwyQkFBMkI7RUFDN0IiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL2ZsaXBjYXJkL2ZsaXBjYXJkLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuY2FyZC1mbGlwID4gZGl2IHtcbiAgICBiYWNrZmFjZS12aXNpYmlsaXR5OiBoaWRkZW47XG4gICAgdHJhbnNpdGlvbjogdHJhbnNmb3JtIDQwMG1zO1xuICAgIHRyYW5zaXRpb24tdGltaW5nLWZ1bmN0aW9uOiBsaW5lYXI7XG4gICAgd2lkdGg6IDEwMCU7XG4gICAgaGVpZ2h0OiAxMDAlO1xuICAgIG1pbi1oZWlnaHQ6IDIwZW07XG4gICAgbWFyZ2luOiAwO1xuICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICBib3JkZXItcmFkaXVzOiAwLjVyZW07XG59XG4gIFxuICBcbiAgLmNhcmQtZnJvbnQge1xuICAgIHRyYW5zZm9ybTogcm90YXRlWSgwZGVnKTtcbiAgICBiYWNrZ3JvdW5kLWltYWdlOiB1cmwoJy4uLy4uLy4uL2Fzc2V0cy9pY29ucy9mbGlwX2JveDAyXzAzLnBuZycpO1xuICAgIGJhY2tncm91bmQtcmVwZWF0OiBuby1yZXBlYXQ7XG4gICAgYmFja2dyb3VuZC1wb3NpdGlvbjogbGVmdCAyMCU7XG4gICAgaW1nIHtcbiAgICAgICAgaGVpZ2h0OiA2ZW07XG4gICAgICAgIHdpZHRoOiBhdXRvO1xuICAgIH1cbiAgfVxuICBcbiAgLmNhcmQtYmFjayB7XG4gICAgdHJhbnNmb3JtOiByb3RhdGVZKDE4MGRlZyk7XG4gICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgIHRvcDogMDtcbiAgfVxuICBcbiAgLmNhcmQtZmxpcDpob3ZlciAuY2FyZC1mcm9udCB7XG4gICAgdHJhbnNmb3JtOiByb3RhdGVZKC0xODBkZWcpO1xuICB9XG4gIFxuICAuY2FyZC1mbGlwOmhvdmVyIC5jYXJkLWJhY2sge1xuICAgIHRyYW5zZm9ybTogcm90YXRlWSgwZGVnKTtcbiAgfVxuICBcbiAgLnRleHQtd2l0aC1kb3RzIHtcbiAgICBkaXNwbGF5OiAtd2Via2l0LWJveDtcbiAgICBtYXgtd2lkdGg6IDk4JTtcbiAgICAtd2Via2l0LWxpbmUtY2xhbXA6IDc7XG4gICAgLXdlYmtpdC1ib3gtb3JpZW50OiB2ZXJ0aWNhbDtcbiAgICBvdmVyZmxvdzogaGlkZGVuICFpbXBvcnRhbnQ7XG4gIH0iXX0= */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](FlipcardComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -457,6 +456,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
 /* harmony import */ var _flipcard_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./flipcard.component */ "./src/app/components/flipcard/flipcard.component.ts");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
+
 
 
 
@@ -466,14 +467,17 @@ class FlipcardModule {
 FlipcardModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineNgModule"]({ type: FlipcardModule });
 FlipcardModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjector"]({ factory: function FlipcardModule_Factory(t) { return new (t || FlipcardModule)(); }, imports: [[
             _angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"],
+            _angular_router__WEBPACK_IMPORTED_MODULE_3__["RouterModule"]
         ]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsetNgModuleScope"](FlipcardModule, { declarations: [_flipcard_component__WEBPACK_IMPORTED_MODULE_2__["FlipcardComponent"]], imports: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"]], exports: [_flipcard_component__WEBPACK_IMPORTED_MODULE_2__["FlipcardComponent"]] }); })();
+(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsetNgModuleScope"](FlipcardModule, { declarations: [_flipcard_component__WEBPACK_IMPORTED_MODULE_2__["FlipcardComponent"]], imports: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"],
+        _angular_router__WEBPACK_IMPORTED_MODULE_3__["RouterModule"]], exports: [_flipcard_component__WEBPACK_IMPORTED_MODULE_2__["FlipcardComponent"]] }); })();
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](FlipcardModule, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"],
         args: [{
                 declarations: [_flipcard_component__WEBPACK_IMPORTED_MODULE_2__["FlipcardComponent"]],
                 imports: [
                     _angular_common__WEBPACK_IMPORTED_MODULE_1__["CommonModule"],
+                    _angular_router__WEBPACK_IMPORTED_MODULE_3__["RouterModule"]
                 ],
                 exports: [_flipcard_component__WEBPACK_IMPORTED_MODULE_2__["FlipcardComponent"]]
             }]
@@ -503,7 +507,7 @@ class FooterComponent {
     }
 }
 FooterComponent.ɵfac = function FooterComponent_Factory(t) { return new (t || FooterComponent)(); };
-FooterComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: FooterComponent, selectors: [["app-footer"]], decls: 60, vars: 0, consts: [[1, "footer", "bg-secondary", "pt-5"], [1, "container", "pt-lg-4", "pb-4"], [1, "row", "mb-5", "pb-md-3", "pb-lg-4"], [1, "col-lg-11", "mb-lg-0", "mb-4"], [1, "d-flex", "flex-md-row", "flex-column", "text-center", "text-md-start", "justify-content-between", "mx-n2"], [1, "mb-sm-0", "mb-4", "px-2"], ["routerLink", "/", 1, "d-inline-block", "mb-4"], ["src", "assets/img/logo/logo.png", "width", "215", "alt", "logo"], [1, "nav", "flex-column", "mb-sm-4", "mb-2"], [1, "nav-item", "mb-2"], ["href", "mailto:contact@korumaak.com", 1, "nav-link", "p-0", "fw-normal"], [1, "fi-mail", "mt-n1", "me-2", "align-middle", "opacity-70"], [1, "nav-item"], ["href", "tel:+22670794679", 1, "nav-link", "p-0", "fw-normal"], [1, "fi-device-mobile", "mt-n1", "me-2", "align-middle", "opacity-70"], ["href", "tel:+33778194940", 1, "nav-link", "p-0", "fw-normal"], [1, "h5", "text-uppercase"], [1, "nav", "flex-column"], ["routerLink", "/nos-metiers", "fragment", "installation-solaire", 1, "nav-link", "p-0", "fw-normal"], ["routerLink", "/nos-metiers", "fragment", "production-photovoltaique", 1, "nav-link", "p-0", "fw-normal"], ["routerLink", "/nos-metiers", "fragment", "consommation", 1, "nav-link", "p-0", "fw-normal"], ["routerLink", "/nos-metiers", "fragment", "sav", 1, "nav-link", "p-0", "fw-normal"], ["routerLink", "/professionnels", 1, "nav-link", "p-0", "fw-normal"], ["routerLink", "/professionnels", "fragment", "conseil", 1, "nav-link", "p-0", "fw-normal"], ["href", "#korumaak-modal", "data-bs-toggle", "modal", 1, "nav-link", "p-0", "fw-normal"], ["routerLink", "/notre-equipe", 1, "nav-link", "p-0", "fw-normal"], [1, "text-center", "fs-sm", "pt-3", "mt-3", "pb-2"], ["href", "https://www.ingenovatech.com/", "target", "_blank", "rel", "noopener", 1, "d-inline-block", "nav-link", "p-0"]], template: function FooterComponent_Template(rf, ctx) { if (rf & 1) {
+FooterComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: FooterComponent, selectors: [["app-footer"]], decls: 56, vars: 0, consts: [[1, "footer", "bg-secondary", "pt-5"], [1, "container", "pt-lg-4", "pb-4"], [1, "row", "mb-5", "pb-md-3", "pb-lg-4"], [1, "col-lg-11", "mb-lg-0", "mb-4"], [1, "d-flex", "flex-md-row", "flex-column", "text-center", "text-md-start", "justify-content-between", "mx-n2"], [1, "mb-sm-0", "mb-4", "px-2"], ["routerLink", "/", 1, "d-inline-block", "mb-4"], ["src", "assets/img/logo/logo.png", "width", "215", "alt", "logo"], [1, "nav", "flex-column", "mb-sm-4", "mb-2"], [1, "nav-item", "mb-2"], ["href", "mailto:contact@korumaak.com", 1, "nav-link", "p-0", "fw-normal"], [1, "fi-mail", "mt-n1", "me-2", "align-middle", "opacity-70"], [1, "nav-item"], ["href", "tel:+22670794679", 1, "nav-link", "p-0", "fw-normal"], [1, "fi-device-mobile", "mt-n1", "me-2", "align-middle", "opacity-70"], [1, "h5", "text-uppercase"], [1, "nav", "flex-column"], ["routerLink", "/nos-metiers", "fragment", "installation-solaire", 1, "nav-link", "p-0", "fw-normal"], ["routerLink", "/nos-metiers", "fragment", "production-photovoltaique", 1, "nav-link", "p-0", "fw-normal"], ["routerLink", "/nos-metiers", "fragment", "consommation", 1, "nav-link", "p-0", "fw-normal"], ["routerLink", "/nos-metiers", "fragment", "sav", 1, "nav-link", "p-0", "fw-normal"], ["routerLink", "/professionnels", 1, "nav-link", "p-0", "fw-normal"], ["routerLink", "/professionnels", "fragment", "conseil", 1, "nav-link", "p-0", "fw-normal"], ["href", "#korumaak-modal", "data-bs-toggle", "modal", 1, "nav-link", "p-0", "fw-normal"], ["routerLink", "/qui-sommes-nous", 1, "nav-link", "p-0", "fw-normal"], [1, "text-center", "fs-sm", "pt-3", "mt-3", "pb-2"], ["href", "https://www.ingenovatech.com/", "target", "_blank", "rel", "noopener", 1, "d-inline-block", "nav-link", "p-0"]], template: function FooterComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "footer", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
@@ -523,72 +527,66 @@ FooterComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCo
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "li", 12);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "a", 13);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](15, "i", 14);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](16, " (+226) 7xxxxxx | S\u00E9n\u00E9gal ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "li", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "a", 15);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](19, "i", 14);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](20, " (+33) 77xxxxxxx | France ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](16, " (+221) 7xxxxxx | S\u00E9n\u00E9gal ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "div", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "h4", 16);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](23, "Nos services");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "div", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "h4", 15);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](19, "Nos services");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "ul", 17);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "li", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "a", 18);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](27, "Installation et vente de Panneaux solaires");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "li", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "a", 19);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](30, "Production d'\u00E9lectricit\u00E9 photovolta\u00EFque");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "ul", 16);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "li", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "a", 17);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](23, "Installation et vente de Panneaux solaires");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "li", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "a", 20);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](33, "Autoconsommation collective et vente locale");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "li", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "a", 18);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](26, "Production d'\u00E9lectricit\u00E9 photovolta\u00EFque");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "li", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](35, "a", 21);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](36, "Services d\u2019accompagnements et SAV");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "li", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "a", 19);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](29, "Autoconsommation collective et vente locale");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](37, "li", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "a", 21);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](39, "Audit et Conseil \u00E9nerg\u00E9tique");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](30, "li", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "a", 20);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](32, "Services d\u2019accompagnements et SAV");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](33, "li", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "a", 20);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](35, "Audit et Conseil \u00E9nerg\u00E9tique");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](40, "div", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](41, "h4", 16);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](42, "Nos solutions");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](36, "div", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](37, "h4", 15);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](38, "Nos solutions");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](43, "ul", 17);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](44, "li", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](45, "a", 22);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](46, "Professionnels");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](47, "li", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](48, "a", 23);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](49, "Conseil et accompagnement");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](39, "ul", 16);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](40, "li", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](41, "a", 21);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](42, "Professionnels");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](50, "li", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](51, "a", 24);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](52, "A propos de nous");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](43, "li", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](44, "a", 22);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](45, "Conseil et accompagnement");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](53, "li", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](54, "a", 25);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](55, "Nous-contacter");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](46, "li", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](47, "a", 23);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](48, "D\u00E9couvrir Korumaak");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](49, "li", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](50, "a", 24);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](51, "Nous-contacter");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -596,10 +594,10 @@ FooterComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCo
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](56, "div", 26);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](57, "\u00A9 All rights reserved. Made by ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](58, "a", 27);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](59, "Ingenovatech");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](52, "div", 25);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](53, "\u00A9 All rights reserved. Made by ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](54, "a", 26);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](55, "Ingenovatech");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -679,7 +677,7 @@ class NavbarComponent {
     }
 }
 NavbarComponent.ɵfac = function NavbarComponent_Factory(t) { return new (t || NavbarComponent)(); };
-NavbarComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: NavbarComponent, selectors: [["app-navbar"]], decls: 53, vars: 2, consts: [["data-scroll-header", "", 1, "navbar", "navbar-expand-lg", "navbar-light", "bg-light", "fixed-top"], [1, "container", "d-flex", "align-items-end"], ["routerLink", "/", 1, "navbar-brand", "me-3", "me-xl-4"], ["src", "assets/img/logo/logo.png", "width", "215", "alt", "Korumaak", 1, "d-lg-block", "d-none"], ["src", "assets/img/logo/logo.png", "width", "160", "alt", "Korumaak", 1, "d-lg-none", "d-block"], ["type", "button", "data-bs-toggle", "collapse", "data-bs-target", "#navbarNav", "aria-controls", "navbarNav", "aria-expanded", "false", "aria-label", "Toggle navigation", 1, "navbar-toggler", "ms-auto"], [1, "navbar-toggler-icon"], ["routerLink", "notre-equipe", "routerLinkActive", "active", 1, "btn", "btn-primary", "btn-sm", "ms-2", "my-1", "order-lg-3", "mb-1"], [1, "fi-phone", "me-2"], [1, "d-none", "d-sm-inline"], [1, "d-sm-none", "d-inline"], ["id", "navbarNav", 1, "collapse", "navbar-collapse", "order-lg-2"], [1, "navbar-nav", "navbar-nav-scroll", 2, "max-height", "35rem"], [1, "nav-item"], ["data-bs-toggle", "collapse", "data-bs-target", "#navbarNav", "routerLink", "/", "routerLinkActive", "active", "role", "button", 1, "nav-link", "pb-1", "mb-0", 3, "routerLinkActiveOptions"], [1, "d-lg-block", "d-none", "bg-primary", "mb-2", 2, "width", "50px", "height", "6px"], [1, "text-uppercase"], ["data-bs-toggle", "collapse", "data-bs-target", "#navbarNav", "aria-controls", "navbarNav", "routerLink", "/nos-metiers", "routerLinkActive", "active", "role", "button", 1, "nav-link", "pb-1", "mb-0"], [1, "nav-item", "dropdown"], ["data-bs-toggle", "collapse", "data-bs-target", "#navbarNav", "aria-controls", "navbarNav", "routerLink", "/nos-offres", "routerLinkActive", "active", "role", "button", "data-bs-toggle", "dropdown", "aria-expanded", "false", 1, "nav-link", "pb-1", "mb-0", "dropdown-toggle"], [1, "dropdown-menu"], ["data-bs-toggle", "collapse", "data-bs-target", "#navbarNav", "aria-controls", "navbarNav", "routerLink", "/nos-offres", "fragment", "catalogue", 1, "dropdown-item"], ["data-bs-toggle", "collapse", "data-bs-target", "#navbarNav", "aria-controls", "navbarNav", "routerLink", "/nos-offres", "fragment", "kits-solaires", 1, "dropdown-item"], ["data-bs-toggle", "collapse", "data-bs-target", "#navbarNav", "aria-controls", "navbarNav", "routerLink", "/nos-offres", "fragment", "paneaux-photovoltaiques", 1, "dropdown-item"], ["data-bs-toggle", "collapse", "data-bs-target", "#navbarNav", "aria-controls", "navbarNav", "routerLink", "/nos-offres", "fragment", "installations", 1, "dropdown-item"], ["data-bs-toggle", "collapse", "data-bs-target", "#navbarNav", "aria-controls", "navbarNav", "routerLink", "/professionnels", "routerLinkActive", "active", "role", "button", 1, "nav-link", "pb-1", "mb-0"], ["data-bs-toggle", "collapse", "data-bs-target", "#navbarNav", "aria-controls", "navbarNav", "routerLink", "/notre-equipe", "routerLinkActive", "active", "role", "button", 1, "nav-link", "pb-1", "mb-0"]], template: function NavbarComponent_Template(rf, ctx) { if (rf & 1) {
+NavbarComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: NavbarComponent, selectors: [["app-navbar"]], decls: 53, vars: 2, consts: [["data-scroll-header", "", 1, "navbar", "navbar-expand-lg", "navbar-light", "bg-light", "fixed-top"], [1, "container", "d-flex", "align-items-end"], ["routerLink", "/", 1, "navbar-brand", "me-3", "me-xl-4"], ["src", "assets/img/logo/logo.png", "width", "215", "alt", "Korumaak", 1, "d-lg-block", "d-none"], ["src", "assets/img/logo/logo.png", "width", "150", "alt", "Korumaak", 1, "d-lg-none", "d-block"], ["type", "button", "data-bs-toggle", "collapse", "data-bs-target", "#navbarNav", "aria-controls", "navbarNav", "aria-expanded", "false", "aria-label", "Toggle navigation", 1, "navbar-toggler", "ms-auto"], [1, "navbar-toggler-icon"], ["href", "tel:+22xxxxx", 1, "btn", "btn-primary", "btn-sm", "ms-2", "my-1", "order-lg-3", "mb-1"], [1, "fi-phone", "me-2"], [1, "d-none", "d-sm-inline"], [1, "d-sm-none", "d-inline"], ["id", "navbarNav", 1, "collapse", "navbar-collapse", "order-lg-2"], [1, "navbar-nav", "navbar-nav-scroll", 2, "max-height", "35rem"], [1, "nav-item"], ["data-bs-toggle", "collapse", "data-bs-target", "#navbarNav", "routerLink", "/", "routerLinkActive", "active", "role", "button", 1, "nav-link", "pb-1", "mb-0", 3, "routerLinkActiveOptions"], [1, "d-lg-block", "d-none", "bg-primary", "mb-2", 2, "width", "50px", "height", "6px"], [1, "text-uppercase"], ["data-bs-toggle", "collapse", "data-bs-target", "#navbarNav", "aria-controls", "navbarNav", "routerLink", "/nos-metiers", "routerLinkActive", "active", "role", "button", 1, "nav-link", "pb-1", "mb-0"], [1, "nav-item", "dropdown"], ["data-bs-toggle", "collapse", "data-bs-target", "#navbarNav", "aria-controls", "navbarNav", "routerLink", "/nos-offres", "routerLinkActive", "active", "role", "button", "data-bs-toggle", "dropdown", "aria-expanded", "false", 1, "nav-link", "pb-1", "mb-0", "dropdown-toggle"], [1, "dropdown-menu"], ["data-bs-toggle", "collapse", "data-bs-target", "#navbarNav", "aria-controls", "navbarNav", "routerLink", "/nos-offres", "fragment", "catalogue", 1, "dropdown-item"], ["data-bs-toggle", "collapse", "data-bs-target", "#navbarNav", "aria-controls", "navbarNav", "routerLink", "/nos-offres", "fragment", "kits-solaires", 1, "dropdown-item"], ["data-bs-toggle", "collapse", "data-bs-target", "#navbarNav", "aria-controls", "navbarNav", "routerLink", "/nos-offres", "fragment", "paneaux-photovoltaiques", 1, "dropdown-item"], ["data-bs-toggle", "collapse", "data-bs-target", "#navbarNav", "aria-controls", "navbarNav", "routerLink", "/nos-offres", "fragment", "installations", 1, "dropdown-item"], ["data-bs-toggle", "collapse", "data-bs-target", "#navbarNav", "aria-controls", "navbarNav", "routerLink", "/professionnels", "routerLinkActive", "active", "role", "button", 1, "nav-link", "pb-1", "mb-0"], ["data-bs-toggle", "collapse", "data-bs-target", "#navbarNav", "aria-controls", "navbarNav", "routerLink", "/qui-sommes-nous", "routerLinkActive", "active", "role", "button", 1, "nav-link", "pb-1", "mb-0"]], template: function NavbarComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "header", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "a", 2);
@@ -758,7 +756,7 @@ NavbarComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCo
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](49, "a", 26);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](50, "hr", 15);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](51, "span", 16);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](52, "Notre \u00E9quipe");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](52, "Qui sommes-nous ?");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -1186,7 +1184,7 @@ class AreaComponent {
     }
 }
 AreaComponent.ɵfac = function AreaComponent_Factory(t) { return new (t || AreaComponent)(); };
-AreaComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AreaComponent, selectors: [["app-area"]], decls: 80, vars: 0, consts: [[1, "container-fluid", "my-5", "pt-5", "pb-lg-4", "px-xxl-4"], ["data-jarallax", "", "data-speed", "0.5", 1, "bg-size", "jarallax", "card", "align-items-center", "justify-content-center", "border-0", "p-md-5", "p-4", "bg-secondary", "overflow-hidden", "mt-n3", 2, "background", "url(assets/img/korumaak/home/1.jpg) no-repeat", "background-size", "cover"], [1, "img-overlay", "opacity-40"], [1, "content-overlay", "container", "py-3"], ["aria-label", "breadcrumb", 1, ""], [1, "breadcrumb"], [1, "breadcrumb-item", "text-light"], ["routerLink", "/"], ["aria-current", "page", 1, "breadcrumb-item", "active"], [1, "col-lg-6", "col-md-6", "col-sm-8", "py-md-5", "py-4", "px-0"], [1, "display-4", "mb-4", "pb-md-2", "text-light"], [1, "position-relative", "bg-white", "rounded-xxl-4", "mb-5", "pb-1", "py-md-3", "zindex-5", 2, "margin-top", "-30px"], [1, "container", "pt-5", "mb-4", "mb-md-5"], [1, "mb-4", "pb-2", "me-auto", "fs-lg", "text-left", 2, "max-width", "616px"], ["id", "installation-solaire", 1, "container", "mb-5", "pb-2", "pb-lg-5"], [1, "row", "align-items-lg-center", "gy-4"], [1, "col-md-6"], ["src", "assets/img/korumaak/home/2.jpg", "alt", "Cover", 1, "rounded-3", "card-image", "w-100"], [1, "col-lg-5", "offset-lg-1", "col-md-6"], [1, "mb-lg-4"], [1, "mb-lg-4", "fs-md", "text-muted"], [1, "list-unstyled", "pb-lg-3"], [1, "d-flex"], [1, "fi-check", "mt-1", "me-2", "pe-1", "text-primary"], ["id", "sav", 1, "container", "mb-5", "pb-lg-5"], [1, "row", "row-cols-lg-3", "row-cols-sm-2", "row-cols-1", "g-sm-4", "g-0"], [1, "col"], [1, "card", "border-0", "h-100"], [1, "card-body"], [1, "h5", "text-primary"], ["id", "production-photovoltaique", 1, "container", "mb-5", "pb-2", "pb-lg-5"], ["src", "assets/img/korumaak/home/3.jpg", "alt", "Cover", 1, "rounded-3", "card-image", "w-100"], ["id", "consommation", 1, "container", "mb-5", "pb-2", "pb-lg-5"], [1, "col-lg-5", "col-md-6"], [1, "col-md-6", "offset-lg-1"], ["src", "assets/img/korumaak/home/4.jpg", "alt", "Cover", 1, "rounded-3", "card-image", "w-100"]], template: function AreaComponent_Template(rf, ctx) { if (rf & 1) {
+AreaComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AreaComponent, selectors: [["app-area"]], decls: 79, vars: 0, consts: [[1, "my-5", "pt-5", "pb-lg-4"], ["data-jarallax", "", "data-speed", "0.5", 1, "bg-size", "jarallax", "align-items-center", "justify-content-center", "border-0", "p-md-5", "p-4", "bg-secondary", "overflow-hidden", "mt-n3", 2, "background", "url(assets/img/korumaak/home/10.jpg) no-repeat", "background-size", "cover"], [1, "img-overlay", "opacity-40"], [1, "content-overlay", "container", "py-3"], ["aria-label", "breadcrumb", 1, ""], [1, "breadcrumb"], [1, "breadcrumb-item", "text-light"], ["routerLink", "/"], ["aria-current", "page", 1, "breadcrumb-item", "active"], [1, "col-lg-6", "col-md-6", "col-sm-8", "py-md-5", "py-4", "px-0"], [1, "display-4", "mb-4", "pb-md-2", "text-light"], [1, "container", "mb-5"], [1, "mb-4", "pb-2", "me-auto", "fs-lg", "text-left", 2, "max-width", "616px"], ["id", "installation-solaire", 1, "container", "mb-5", "pb-2", "pb-lg-5"], [1, "row", "align-items-lg-center", "gy-4"], [1, "col-md-6"], ["src", "assets/img/korumaak/home/2.jpg", "alt", "Cover", 1, "rounded-3", "card-image", "w-100"], [1, "col-lg-5", "offset-lg-1", "col-md-6"], [1, "mb-lg-4"], [1, "mb-lg-4", "fs-md", "text-muted"], [1, "list-unstyled", "pb-lg-3"], [1, "d-flex"], [1, "fi-check", "mt-1", "me-2", "pe-1", "text-primary"], ["id", "sav", 1, "container", "mb-5", "pb-lg-5"], [1, "row", "row-cols-lg-3", "row-cols-sm-2", "row-cols-1", "g-sm-4", "g-0"], [1, "col"], [1, "card", "border-0", "h-100"], [1, "card-body"], [1, "h5", "text-primary"], ["id", "production-photovoltaique", 1, "container", "mb-5", "pb-2", "pb-lg-5"], ["src", "assets/img/korumaak/home/3.jpg", "alt", "Cover", 1, "rounded-3", "card-image", "w-100"], ["id", "consommation", 1, "container", "mb-5", "pb-2", "pb-lg-5"], [1, "col-lg-5", "col-md-6"], [1, "col-md-6", "offset-lg-1"], ["src", "assets/img/korumaak/home/4.jpg", "alt", "Cover", 1, "rounded-3", "card-image", "w-100"]], template: function AreaComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "section", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "span", 2);
@@ -1212,111 +1210,109 @@ AreaComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComp
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "section", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "div", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "h2");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, "L'\u00E9nergie solaire: notre coeur de m\u00E9tier");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "h2");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](16, "L'\u00E9nergie solaire: notre coeur de m\u00E9tier");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "p", 13);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](19, " Le professionnalisme de nos services d'installation garantit des solutions de production d\u2019\u00E9lectricit\u00E9 solaire harmonieuses, p\u00E9rennes et performantes. ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "p", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, " Le professionnalisme de nos services d'installation garantit des solutions de production d\u2019\u00E9lectricit\u00E9 solaire harmonieuses, p\u00E9rennes et performantes. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "section", 14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "section", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "div", 14);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "div", 15);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "div", 16);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](23, "img", 17);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](22, "img", 16);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "div", 18);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "h2", 19);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](26, "Installation et vente de Panneaux solaires");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "div", 17);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "h2", 18);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](25, "Installation et vente de Panneaux solaires");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "p", 20);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](28, " Le professionnalisme de nos services d'installation garantit des solutions de production d\u2019\u00E9lectricit\u00E9 solaire harmonieuses, p\u00E9rennes et performantes. Nous r\u00E9pondons aux besoins des particuliers (individu,foyers, etc.), des professionnels (entreprises publics ou priv\u00E9es) et des collectivit\u00E9s du S\u00E9n\u00E9gal et de la sous-r\u00E9gion africaine. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "p", 19);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](27, " Nous r\u00E9pondons aux besoins des particuliers (individu,foyers, etc.), des professionnels (entreprises publics ou priv\u00E9es) et des collectivit\u00E9s du S\u00E9n\u00E9gal et de la sous-r\u00E9gion africaine. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "ul", 21);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](30, "li", 22);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](31, "i", 23);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](32, "Pr\u00E9paration du site d\u2019installation (d\u00E9broussaillage, \u00E9lagage, abattage, etc.) ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "ul", 20);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "li", 21);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](30, "i", 22);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](31, "Pr\u00E9paration du site d\u2019installation (d\u00E9broussaillage, \u00E9lagage, abattage, etc.) ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](33, "li", 22);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](34, "i", 23);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](35, "Installation de l\u2019architecture de fixation des panneaux solaires au sol. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "li", 21);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](33, "i", 22);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](34, "Installation de l\u2019architecture de fixation des panneaux solaires au sol. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](36, "li", 22);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](37, "i", 23);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](38, "Pose des panneaux sur les supports ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](35, "li", 21);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](36, "i", 22);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](37, "Pose des panneaux sur les supports ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](39, "section", 24);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "section", 23);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](39, "div", 24);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](40, "div", 25);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](41, "div", 26);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](42, "div", 27);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](43, "div", 28);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](44, "h3", 29);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](45, "Suivi et Accompagnement");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](43, "h3", 28);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](44, "Accompagnement technique");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](46, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](47, "B\u00E9n\u00E9ficiez de notre expertise en dimensionnement de syst\u00E8mes photovolta\u00EFques con\u00E7us et dimensionn\u00E9s pour optimiser l'efficacit\u00E9 \u00E9nerg\u00E9tique dans un contexte local fluctuant. Notre approche sur mesure assure une production \u00E9nerg\u00E9tique solaire optimale adapt\u00E9e \u00E0 l'ensoleillement de votre zone d\u2019implantation.");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](45, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](46, " B\u00E9n\u00E9ficiez de notre expertise en dimensionnement de syst\u00E8mes photovolta\u00EFques con\u00E7us pour optimiser l'efficacit\u00E9 \u00E9nerg\u00E9tique globale de votre installation. Nos experts sont l\u00E0 pour vous accompagner dans les diverses \u00E9tapes de votre projet : de son \u00E9tude jusqu\u2019\u00E0 l\u2019installation et la mise en service de vos panneaux photovolta\u00EFques. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](47, "div", 25);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](48, "div", 26);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](49, "div", 27);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](50, "div", 28);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](51, "h3", 29);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](52, "Services Apr\u00E8s-Vente");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](50, "h3", 28);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](51, "Suivi et Services Apr\u00E8s-Vente");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](53, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](54, "B\u00E9n\u00E9ficiez de notre expertise en dimensionnement de syst\u00E8mes photovolta\u00EFques con\u00E7us et dimensionn\u00E9s pour optimiser l'efficacit\u00E9 \u00E9nerg\u00E9tique dans un contexte local fluctuant. Notre approche sur mesure assure une production \u00E9nerg\u00E9tique solaire optimale adapt\u00E9e \u00E0 l'ensoleillement de votre zone d\u2019implantation.");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](52, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](53, " Dans le contexte d\u2019un mix \u00E9nerg\u00E9tique cristallis\u00E9 par une inflation des prix de l\u2019\u00E9lectricit\u00E9, Korumaak Activities vous accompagne vers une d\u00E9marche de r\u00E9duction de vos factures d\u2019\u00E9lectricit\u00E9 gr\u00E2ce \u00E0 des co\u00FBts comp\u00E9titifs de production d\u2019une \u00E9nergie solaire verte et d\u00E9carbon\u00E9e. Notre service apr\u00E8s-vente est d\u00E9di\u00E9 \u00E0 la bonne marche de votre installation apr\u00E8s sa mise en service. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](54, "div", 25);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](55, "div", 26);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](56, "div", 27);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](57, "div", 28);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](58, "h3", 29);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](59, "Audit et Conseil \u00E9nerg\u00E9tique");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](57, "h3", 28);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](58, "Audit et Conseil \u00E9nerg\u00E9tique");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](60, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](61, "Nos services d'audit et de conseil \u00E9nerg\u00E9tiques sont con\u00E7us pour r\u00E9pondre aux d\u00E9fis et aux besoins du march\u00E9. Nous vous aidons \u00E0 identifier des solutions pour r\u00E9duire les co\u00FBts d'\u00E9lectricit\u00E9 et \u00E0 exploiter au mieux le potentiel solaire local. Profitons du potentiel d'ensoleillement du S\u00E9n\u00E9gal et de l\u2019Afrique pour atteindre l\u2019auto-suffisance \u00E9nerg\u00E9tique.");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](59, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](60, " Nos services d'audit et de conseils \u00E9nerg\u00E9tiques sont pens\u00E9s pour r\u00E9pondre aux d\u00E9fis et besoins du march\u00E9 actuel et futur. Notre approche sur mesure assure, via des perspectives vari\u00E9es, une production \u00E9nerg\u00E9tique solaire optimale adapt\u00E9e \u00E0 l'ensoleillement de votre zone d\u2019implantation. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](62, "section", 30);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](61, "section", 29);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](62, "div", 14);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](63, "div", 15);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](64, "div", 16);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](65, "img", 31);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](64, "img", 30);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](66, "div", 18);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](67, "h2", 19);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](68, "Production d'\u00E9lectricit\u00E9 photovolta\u00EFque");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](65, "div", 17);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](66, "h2", 18);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](67, "Production d'\u00E9lectricit\u00E9 photovolta\u00EFque");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](69, "p", 20);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](70, " La transition \u00E9nerg\u00E9tique participe \u00E0 r\u00E9duire la d\u00E9pendance aux \u00E9nergies fossiles et \u00E0 augmenter la part des \u00E9nergies renouvelables dans le mix \u00E9nerg\u00E9tique. La terre re\u00E7oit 173000 TWh d'\u00E9nergie solaire par an. Le photovolta\u00EFque permettant de convertir l\u2019\u00E9nergie solaire en \u00E9nergie \u00E9lectrique pr\u00E9sente de nombreux atouts, tels que la r\u00E9duction des \u00E9missions de CO2, la diversification des sources d\u2019\u00E9nergie, la cr\u00E9ation d\u2019emplois locaux et la baisse des co\u00FBts de production d\u2019\u00E9lectricit\u00E9. Avec Korumaak Activities la production d\u2019\u00E9nergie solaire devient abordable et accessible pour une alternative \u00E9nerg\u00E9tique p\u00E9renne et vertueuse. ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](68, "p", 19);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](69, " La terre re\u00E7oit 173000 TWh d'\u00E9nergie solaire par an. La conversion de l\u2019\u00E9nergie solaire en \u00E9nergie \u00E9lectrique, via le photovolta\u00EFque pr\u00E9sente de nombreux atouts : l\u2019assurance d\u2019une accessibilit\u00E9 \u00E0 une \u00E9lectricit\u00E9 renouvelable, la r\u00E9duction des \u00E9missions de CO2, la diversification des sources d\u2019\u00E9nergie locales, et la baisse des co\u00FBts de production d\u2019\u00E9lectricit\u00E9. Avec Korumaak cette production d\u2019\u00E9nergie solaire \u00E0 moindres co\u00FBts devient une r\u00E9alit\u00E9 tangible : Vous participez de surcro\u00EEt \u00E0 la transition \u00E9nerg\u00E9tique en r\u00E9duisant l\u2019empreinte carbone, la d\u00E9pendance aux \u00E9nergies fossiles et contribuez \u00E0 augmenter la part du renouvelable dans le mix \u00E9nerg\u00E9tique s\u00E9n\u00E9galais, africain, mondial. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](71, "section", 32);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](72, "div", 15);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](73, "div", 33);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](74, "h2", 19);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](75, "Autoconsommation collective et vente locale");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](76, "p", 20);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](77, " En tant que producteur d\u2019\u00E9nergie solaire, vous pouvez dans une d\u00E9marche de partage \u00E9nerg\u00E9tique choisir de faire profiter \u00E0 votre collectivit\u00E9, voisinage ou au r\u00E9seau local de distribution \u00E9nerg\u00E9tique, du surplus d\u2019\u00E9nergie solaire produite par vos panneaux solaires: Cette \u00E9nergie est alors dispatch\u00E9e entre plusieurs personnes situ\u00E9es sur des sites proches moyennant contrepartie financi\u00E8re. Cette approche v\u00E9hicule plusieurs avantages et assure un rapide retpur sur investissement. Chez Korumaak Activities nous vous accompagnons dans les d\u00E9marches n\u00E9cessaires \u00E0 la mise en place de cette opportunit\u00E9 de partage \u00E9nerg\u00E9tique ainsi que les aspects \u00E9conomiques associ\u00E9s y aff\u00E9rents. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](70, "section", 31);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](71, "div", 14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](72, "div", 32);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](73, "h2", 18);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](74, "Autoconsommation collective et vente locale");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](75, "p", 19);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](76, " Le partage est une vertu des cultures et traditions africaines. En tant que producteur d\u2019\u00E9nergie solaire, vous pouvez choisir de faire profiter \u00E0 votre collectivit\u00E9, voisinage ou au r\u00E9seau local de distribution \u00E9lectrique, du surplus d\u2019\u00E9nergie solaire produite par vos panneaux solaires : Cette \u00E9nergie peut alors \u00EAtre dispatch\u00E9e entre plusieurs personnes situ\u00E9es sur des sites proches moyennant une relative contrepartie financi\u00E8re. Vous capitalisez, de la sorte, sur votre installation. Chez Korumaak Activities nous vous accompagnons dans le dimensionnement et les d\u00E9marches n\u00E9cessaires \u00E0 la mise en place de cette opportunit\u00E9 de partage \u00E9nerg\u00E9tique ainsi que les possibilit\u00E9s de profits \u00E9conomiques y aff\u00E9rents. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](78, "div", 34);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](79, "img", 35);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](77, "div", 33);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](78, "img", 34);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -1352,9 +1348,9 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-function EtudesComponent_div_25_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 19);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "app-flipcard", 20);
+function EtudesComponent_div_30_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 21);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "app-flipcard", 22);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } if (rf & 2) {
     const line_r1 = ctx.$implicit;
@@ -1369,7 +1365,7 @@ class EtudesComponent {
                 backText: "Notre équipe spécialisée vous accompagne de la conception à la mise en service de votre centrale solaire, en s'adaptant à vos besoins spécifiques et à votre environnement.",
                 frontTitle: "Installation de centrale solaire photovoltaïque",
                 //frontText: "",
-                imgSrc: "assets/icons/electric-tower.svg",
+                imgSrc: "assets/icons/power-plant.png",
                 frontColor: "#000",
                 frontBgColor: "white",
                 backBgColor: "#F08517",
@@ -1383,7 +1379,7 @@ class EtudesComponent {
                 backText: "Parmi les différentes solutions photovoltaïques, les ombrières de parking sont les plus courantes. Elles permettent de produire de l’électricité tout en protégeant les véhicules du soleil et des intempéries. Elles offrent également des avantages économiques et environnementaux aux entreprises et aux collectivités, comme la valorisation de l’espace, la réduction de la facture énergétique, l’amélioration de l’image et la contribution à la transition énergétique.",
                 frontTitle: "Installation d'ombriere solaire",
                 //frontText: "",
-                imgSrc: "assets/icons/solar-panel2.svg",
+                imgSrc: "assets/icons/solar-panels.png",
                 actionTitle: null,
                 actionUrl: null,
                 actionUrlFragment: 'ombrieresolaire',
@@ -1397,7 +1393,7 @@ class EtudesComponent {
                 frontTitle: "Fourniture et installation de lampadaire solaire",
                 backText: "Nos lampadaires solaires sont équipés de panneaux photovoltaïques intégrés, qui captent l'énergie solaire tout au long de la journée pour alimenter des ampoules LED haute performance pendant la nuit.",
                 //frontText: "",
-                imgSrc: "assets/icons/house.svg",
+                imgSrc: "assets/icons/street-light.png",
                 actionTitle: null,
                 actionUrl: null,
                 actionUrlFragment: 'fourniture',
@@ -1411,7 +1407,7 @@ class EtudesComponent {
                 frontTitle: "Installation toiture solaire sur mesure",
                 backText: "Vous pouvez opter pour une installation de vos panneaux solaires sur le toit de votre maison ou de votre entreprise. L’exposition à la lumière solaire et le rendement en seront maximisés.",
                 //frontText: "",
-                imgSrc: "assets/icons/house.svg",
+                imgSrc: "assets/icons/house.png",
                 actionTitle: null,
                 actionUrl: null,
                 actionUrlFragment: 'toituresolaire',
@@ -1425,12 +1421,12 @@ class EtudesComponent {
                 backText: "Optimisez votre consommation énergétique grâce à nos services d'audit et de conseils personnalisés.",
                 frontTitle: "Audit et conseils énergétiques professionnels pour une gestion éco-responsable",
                 //frontText: "",
-                imgSrc: "assets/icons/computer.svg",
+                imgSrc: "assets/icons/solar-energy.png",
                 actionTitle: null,
                 actionUrl: null,
                 actionUrlFragment: 'audit',
-                frontColor: "white",
-                frontBgColor: "#F08517",
+                frontColor: "#000",
+                frontBgColor: "white",
                 backBgColor: "white",
                 backColor: "#000",
             },
@@ -1454,7 +1450,7 @@ class EtudesComponent {
     }
 }
 EtudesComponent.ɵfac = function EtudesComponent_Factory(t) { return new (t || EtudesComponent)(); };
-EtudesComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: EtudesComponent, selectors: [["app-etudes"]], decls: 26, vars: 1, consts: [[1, "my-5", "pt-5", "pb-lg-4"], ["data-jarallax", "", "data-speed", "0.5", 1, "bg-size", "jarallax", "align-items-center", "justify-content-center", "border-0", "p-md-5", "p-4", "bg-secondary", "overflow-hidden", "mt-n3", 2, "background", "url(assets/img/korumaak/home/2.jpg) no-repeat", "background-size", "cover"], [1, "img-overlay", "opacity-20"], [1, "content-overlay", "container", "py-3"], ["aria-label", "breadcrumb", 1, ""], [1, "breadcrumb"], [1, "breadcrumb-item", "text-light"], ["routerLink", "/"], ["aria-current", "page", 1, "breadcrumb-item", "active"], [1, "col-lg-6", "col-md-6", "col-sm-8", "py-md-5", "py-4", "px-0"], [1, "display-4", "mb-4", "pb-md-2", "text-light"], [1, "mb-sm-5", "mb-4", "pb-md-5", "pb-3", "lead", "text-light"], ["id", "conseil", 1, "container", "py-5", "mb-4"], [1, "mb-0", "pb-2", "me-auto", "fs-lg", 2, "max-width", "760px"], [1, "container", "mb-5"], [1, "row", "justify-content-center", "mb-5", "mt-5", "pt-5"], [1, "col"], [1, "row"], ["class", "col-md-4 mb-4", "data-aos", "zoom-in", 4, "ngFor", "ngForOf"], ["data-aos", "zoom-in", 1, "col-md-4", "mb-4"], [3, "data"]], template: function EtudesComponent_Template(rf, ctx) { if (rf & 1) {
+EtudesComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: EtudesComponent, selectors: [["app-etudes"]], decls: 31, vars: 1, consts: [[1, "my-5", "pt-5", "pb-lg-4"], ["data-jarallax", "", "data-speed", "0.5", 1, "bg-size", "jarallax", "align-items-center", "justify-content-center", "border-0", "p-md-5", "p-4", "bg-secondary", "overflow-hidden", "mt-n3", 2, "background", "url(assets/img/korumaak/home/2.jpg) no-repeat", "background-size", "cover"], [1, "img-overlay", "opacity-20"], [1, "content-overlay", "container", "py-3"], ["aria-label", "breadcrumb", 1, ""], [1, "breadcrumb"], [1, "breadcrumb-item", "text-light"], ["routerLink", "/"], ["aria-current", "page", 1, "breadcrumb-item", "active"], [1, "col-lg-6", "col-md-6", "col-sm-8", "py-md-5", "py-4", "px-0"], [1, "display-4", "mb-4", "pb-md-2", "text-light"], [1, "mb-sm-5", "mb-4", "pb-md-5", "pb-3", "lead", "text-light"], ["id", "conseil", 1, "container", "mb-5"], [1, "border-start", "border-5", "border-primary", "ps-3"], [1, "mb-0", "pb-2", "me-auto", "fs-lg"], [1, "me-auto", "fs-lg"], [1, "container", "mb-5"], [1, "row", "justify-content-center"], [1, "col"], [1, "row"], ["class", "col-md-4 mb-4", "data-aos", "zoom-in", 4, "ngFor", "ngForOf"], ["data-aos", "zoom-in", 1, "col-md-4", "mb-4"], [3, "data"]], template: function EtudesComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "section", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "span", 2);
@@ -1467,7 +1463,7 @@ EtudesComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCo
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "li", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, "professionnels");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, "Professionnels");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -1486,21 +1482,29 @@ EtudesComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCo
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "h2");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, "Une \u00E9quipe d'experts \u00E0 vos c\u00F4t\u00E9s");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "p", 13);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](20, " Fort d\u2019une \u00E9quipe d\u2019ing\u00E9nieurs de diff\u00E9rents horizons, nous vous guarantissons la r\u00E9ussite de vos chantiers ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "div", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "p", 14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, " Fort d\u2019une \u00E9quipe d\u2019ing\u00E9nieurs, de scientifiques, de chercheurs et de penseurs engag\u00E9s et issus de divers horizons, nous vous garantissons la r\u00E9ussite de vos chantiers. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "p", 14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](23, " Nous vous guidons sur chaque \u00E9tape de votre projet gr\u00E2ce \u00E0 nos services surmesure et cl\u00E9-en-main. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "p", 15);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](25, " Que vous soyez artisan, agriculteur, commer\u00E7ant, entrepreneur ind\u00E9pendant ou gros industriel, d\u00E9couvrez nos solutions qui s\u2019adaptent \u00E0 vos enjeux ! ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "section", 14);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "div", 15);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "div", 16);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "div", 17);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](25, EtudesComponent_div_25_Template, 2, 1, "div", 18);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "section", 16);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "div", 17);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "div", 18);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "div", 19);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](30, EtudesComponent_div_30_Template, 2, 1, "div", 20);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } if (rf & 2) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](25);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](30);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.listBusinessLines);
     } }, directives: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterLinkWithHref"], _angular_common__WEBPACK_IMPORTED_MODULE_2__["NgForOf"], _components_flipcard_flipcard_component__WEBPACK_IMPORTED_MODULE_3__["FlipcardComponent"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3BhZ2VzL2V0dWRlcy9ldHVkZXMuY29tcG9uZW50LmNzcyJ9 */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](EtudesComponent, [{
@@ -1633,7 +1637,7 @@ function HomeComponent_div_59_Template(rf, ctx) { if (rf & 1) {
 } }
 function HomeComponent_div_67_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 58);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "a", 59);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 59);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 60);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "span", 61);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "img", 62);
@@ -1647,9 +1651,7 @@ function HomeComponent_div_67_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } if (rf & 2) {
     const country_r8 = ctx.$implicit;
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("href", country_r8.url, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate"]("alt", country_r8.name);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("src", country_r8.img, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
@@ -1679,6 +1681,7 @@ function HomeComponent_div_71_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](line_r9.description);
 } }
 class HomeComponent {
+    // showProjectTimer: Subscription;
     constructor(platformId) {
         this.platformId = platformId;
         this.listBusinessLines = [
@@ -1693,18 +1696,18 @@ class HomeComponent {
                 backBgColor: "#F08517",
                 backColor: "white",
                 actionTitle: "En savoir plus",
-                actionUrl: "/our-expertise",
-                actionUrlFragment: 'energy-expertise',
+                actionUrl: "/nos-offres",
+                actionUrlFragment: 'kits-solaires',
             },
             {
                 // backTitle: "",
                 backText: "Pour les industries: Installation de centrales solaires PV connectés au réseau ou isolés, de systèmes fuel-save. Expertise et proposition de solutions d’amélioration des performances et réduction de la facture d’électricité. Pour les résidences et commerces: Systèmes autonomes, Systèmes hybrides, Back up énergétique, Eau chaude sanitaire etc...",
                 frontTitle: "Production d'électricité photovoltaïque",
                 //frontText: "",
-                imgSrc: "assets/icons/solar-panel2.svg",
+                imgSrc: "assets/icons/solar-panels.png",
                 actionTitle: "En savoir plus",
-                actionUrl: "/our-expertise",
-                actionUrlFragment: 'elec-expertise',
+                actionUrl: "/professionnels",
+                actionUrlFragment: '',
                 frontColor: "#000",
                 frontBgColor: "white",
                 backBgColor: "#F08517",
@@ -1715,10 +1718,10 @@ class HomeComponent {
                 backText: "En tant que producteur d’énergie solaire, vous pouvez dans une démarche de partage énergétique choisir de faire profiter à votre collectivité, voisinage ou au réseau local de distribution énergétique, du surplus d’énergie solaire produite par vos panneaux solaires: Cette énergie est alors dispatchée entre plusieurs personnes situées sur des sites proches moyennant contrepartie financière. Cette approche véhicule plusieurs avantages et assure un rapide retpur sur investissement. Chez Korumaak Activities nous vous accompagnons dans les démarches nécessaires à la mise en place de cette opportunité de partage énergétique ainsi que les aspects économiques associés y afférents.",
                 frontTitle: "Autoconsommation collective et vente locale",
                 //frontText: "",
-                imgSrc: "assets/icons/house.svg",
+                imgSrc: "assets/icons/house.png",
                 actionTitle: "En savoir plus",
-                actionUrl: "/our-expertise",
-                actionUrlFragment: 'autoconsommation',
+                actionUrl: "/nos-metiers",
+                actionUrlFragment: 'consommation',
                 frontColor: "#000",
                 frontBgColor: "white",
                 backBgColor: "white",
@@ -1729,12 +1732,12 @@ class HomeComponent {
                 backText: "Nos services d'audit et de conseil énergétiques sont conçus pour répondre aux défis et aux besoins du marché. Nous vous aidons à identifier des solutions pour réduire les coûts d'électricité et à exploiter au mieux le potentiel solaire local. Profitons du potentiel d'ensoleillement du Sénégal et de l’Afrique pour atteindre l’auto-suffisance énergétique.",
                 frontTitle: "Audit et Conseil énergétique",
                 //frontText: "",
-                imgSrc: "assets/icons/computer.svg",
+                imgSrc: "assets/icons/solar-energy.png",
                 actionTitle: "En savoir plus",
-                actionUrl: "/our-expertise",
-                actionUrlFragment: 'audit-conseil',
-                frontColor: "white",
-                frontBgColor: "#F08517",
+                actionUrl: "/nos-metiers",
+                actionUrlFragment: 'sav',
+                frontColor: "#000",
+                frontBgColor: "white",
                 backBgColor: "white",
                 backColor: "#000",
             }
@@ -1780,34 +1783,34 @@ class HomeComponent {
             {
                 id: 1,
                 url: "",
-                img: "assets/img/korumaak/home/1.jpg",
-                subheader: "Une équipe compétente pour",
-                header: "Pour une énergie durable et propre",
-                description: "Korumaak Activities, au tournant d'un avenir énergétique durable pour le Sénégal et l'Afrique."
+                img: "assets/img/korumaak/home/2.jpg",
+                subheader: "Satisfaction garantie, à travers",
+                header: "Construire l’avenir énergétique des possibles",
+                description: "Inwé ndiasnoorida ndjom maak, to mbaru ndamlox teen na doolé fé modj na na Sénégal fu na Afrique."
             },
             {
                 id: 2,
                 url: "",
-                img: "assets/img/korumaak/home/2.jpg",
-                subheader: "Satisfaction garantie, à travers",
-                header: "Pour une énergie durable et propre",
-                description: "Inwé ndiasnoorida ndjom maak, to mbaru ndamlox teen na doolé fé modj na na Sénégal fu na Afrique."
-            },
-            {
-                id: 3,
-                url: "",
-                img: "assets/img/korumaak/home/3.jpg",
+                img: "assets/img/korumaak/home/9.jpg",
                 subheader: "Un suivi transparent, pour",
                 header: "Confiez vos réalisations à des experts",
                 description: "Ëellëg gu Saax Ci Walu enerji Sénégal ak Afrique."
             },
+            {
+                id: 3,
+                url: "",
+                img: "assets/img/korumaak/home/10.jpg",
+                subheader: "Une équipe compétente pour",
+                header: "Pour une énergie durable et propre",
+                description: "Korumaak Activities, au tournant d'un avenir énergétique durable pour le Sénégal et l'Afrique."
+            }
         ];
         this.listBusinessLine = [
             {
                 id: 1,
                 url: "/pole-etudes",
-                name: "Analyse de votre besoin",
-                description: "Afin de vous proposer l'offre la mieux adaptée à votre besoin, nous prenons le temps de compendre et d'analyser ce dernier.",
+                name: "Analyse rigoureuse de votre besoin",
+                description: "fin de vous proposer l’offre la plus adaptée à votre besoin, nous procédons pour chaque sollicitation à une analyse fine des paramètres d’entrée et caractéristiques associées à votre demande grâce à nos outils de dimensionnement.",
                 btn: "En savoir plus",
                 img: "assets/img/korumaak/expertise/2.png"
             },
@@ -1815,15 +1818,15 @@ class HomeComponent {
                 id: 2,
                 url: "/pole-etudes",
                 name: "Proposition d'une offre adaptée",
-                description: "Nous vous proposons ensuite un devis bien étudié avec des facilités de paiement.",
+                description: "Un devis personnalisé vous est ensuite proposé sous quelques jours selon votre besoin avec un éclairage porté sur les calendriers et délais prévisionnels de réalisation.",
                 btn: "En savoir plus",
                 img: "assets/img/korumaak/expertise/1.png"
             },
             {
                 id: 3,
                 url: "/pole-travaux",
-                name: "Etudes et installations",
-                description: "Nous vous porposons des kits solaires adpatés à vos besoins, ou réalisons une étude spécifique. Nous faisons les installations conformément aux normes et standars internationaux.",
+                name: "Installation et mise en service",
+                description: "Nous procédons après étude détaillée à l’exécution pratique de votre projet (kits solaires, panneaux photovoltaïques, etc…). Nos techniciens qualifiés se déplacent pour assurer la réalisation et le suivi des travaux de votre installation conformément aux normes et standards internationaux…",
                 btn: "En savoir plus",
                 img: "assets/img/korumaak/expertise/2.jpg"
             }
@@ -1832,6 +1835,21 @@ class HomeComponent {
             {
                 name: "Sénégal",
                 img: "assets/img/korumaak/city/dakar.jpg",
+                url: ""
+            },
+            {
+                name: "Mauritanie",
+                img: "assets/img/korumaak/city/nouakchot.jpg",
+                url: ""
+            },
+            {
+                name: "Mali",
+                img: "assets/img/korumaak/city/bamako.jpeg",
+                url: ""
+            },
+            {
+                name: "Guinée",
+                img: "assets/img/korumaak/city/conakry.jpg",
                 url: ""
             },
             {
@@ -1844,61 +1862,47 @@ class HomeComponent {
                 img: "assets/img/korumaak/city/ouaga.jpg",
                 url: ""
             },
-            {
-                name: "Togo",
-                img: "assets/img/korumaak/city/lome.jpg",
-                url: ""
-            },
-            {
-                name: "Ghana",
-                img: "assets/img/korumaak/city/accra.jpg",
-                url: ""
-            },
-            {
-                name: "Benin",
-                img: "assets/img/korumaak/city/cotonou.jpg",
-                url: ""
-            }
         ];
-        this.listProjectItems = [
-            { id: 1, name: "Génie Civil" },
-            { id: 2, name: "Bâtiment" },
-        ];
-        this.selectedProjectId = 1;
-        this.listofProjects = [];
     }
-    ngOnInit() {
-        // this.listofProjects = this.getRandomSubarray(this.listProjects, 2);
-        // if (isPlatformBrowser(this.platformId)) {
-        //   this.showProjectTimer = interval(7000).subscribe(() => 
-        //     {
-        //       this.listofProjects = this.getRandomSubarray(this.listProjects, 2);
-        //     }
-        //   )
-        // }
+    /**ngOnInit(): void {
+  
+      // this.listofProjects = this.getRandomSubarray(this.listProjects, 2);
+  
+      // if (isPlatformBrowser(this.platformId)) {
+      //   this.showProjectTimer = interval(7000).subscribe(() =>
+      //     {
+      //       this.listofProjects = this.getRandomSubarray(this.listProjects, 2);
+      //     }
+      //   )
+      // }
+      
     }
-    ngOnDestroy() {
-        var _a;
-        (_a = this.showProjectTimer) === null || _a === void 0 ? void 0 : _a.unsubscribe();
+  
+    ngOnDestroy(): void {
+        this.showProjectTimer?.unsubscribe();
     }
-    getSelectedItemName() {
-        const selectItem = this.listProjectItems.filter(_item => (_item === null || _item === void 0 ? void 0 : _item.id) !== this.selectedProjectId);
-        return selectItem.length > 0 ? selectItem[0].name : 'Sélectionner';
+  
+    getSelectedItemName(): any {
+      const selectItem = this.listProjectItems.filter(_item => _item?.id !== this.selectedProjectId);
+      return selectItem.length > 0 ? selectItem[0].name : 'Sélectionner'
     }
-    selectProject(id) {
-        this.selectedProjectId = id;
+  
+    selectProject(id: number): void {
+      this.selectedProjectId = id;
     }
-    getRandomSubarray(arr, size) {
-        var shuffled = arr.slice(0), i = arr.length, temp, index;
-        while (i--) {
-            index = Math.floor((i + 1) * Math.random());
-            temp = shuffled[index];
-            shuffled[index] = shuffled[i];
-            shuffled[i] = temp;
-        }
-        return shuffled.slice(0, size);
+  
+    getRandomSubarray(arr, size): any[] {
+      var shuffled = arr.slice(0), i = arr.length, temp, index;
+      while (i--) {
+          index = Math.floor((i + 1) * Math.random());
+          temp = shuffled[index];
+          shuffled[index] = shuffled[i];
+          shuffled[i] = temp;
+      }
+      return shuffled.slice(0, size);
     }
-    /**getListSelectedProjects(): any[] {
+  
+    getListSelectedProjects(): any[] {
       return this.getRandomSubarray(this.listProjects, 2);
     }**/
     visitWebSite() {
@@ -1906,7 +1910,7 @@ class HomeComponent {
     }
 }
 HomeComponent.ɵfac = function HomeComponent_Factory(t) { return new (t || HomeComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["PLATFORM_ID"])); };
-HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HomeComponent, selectors: [["app-home"]], decls: 72, vars: 5, consts: [[1, "tns-carousel-wrapper", "mb-5"], ["data-carousel-options", "{\"mode\": \"gallery\", \"speed\": 50, \"autoplay\": \"true\", \"responsive\": {\"0\":{\"nav\":true, \"controls\": false},\"992\":{\"nav\":false, \"controls\": true}}}", 1, "tns-carousel-inner"], ["class", "d-flex justify-content-center align-items-center px-lg-5", 3, "style", 4, "ngFor", "ngForOf"], [1, "container", "mb-5"], [1, "d-flex", "align-items-center", "justify-content-between", "mb-3"], [1, "h3", "mb-0"], ["routerLink", "/nos-offres", 1, "btn", "btn-link", "fw-normal", "ms-md-3", "pb-0"], [1, "fi-arrow-long-right", "ms-2"], [1, "tns-carousel-wrapper", "tns-controls-outside-xxl", "tns-nav-outside", "tns-nav-outside-flush", "mx-n2"], ["data-carousel-options", "{\"items\": 5, \"controls\": false, \"speed\": 500, \"autoplay\": \"true\", \"responsive\": {\"0\":{\"items\":2},\"500\":{\"items\":3},\"768\":{\"items\":4},\"992\":{\"items\":4}}}", 1, "tns-carousel-inner", "row", "gx-4", "mx-0", "py-3"], ["class", "col-3", 4, "ngFor", "ngForOf"], [1, "bg-secondary", "mb-5", "py-3"], [1, "container", "team-section"], [1, "row", "justify-content-center"], ["data-aos", "fade-down", 1, "col-md-6", "d-flex", "justify-content-center", "align-items-center"], ["src", "assets/img/korumaak/home/4.jpg", 1, "work-img"], [1, "col-md-6"], [1, "row"], [1, "col-md-12"], [2, "font-weight", "300"], [1, "mb-0"], ["data-aos", "fade-right", 1, "col-md-12"], [1, "box__right", "bg-light"], [1, "text"], [1, "h5", "mb-0", "text-primary"], [1, "m-0", "p-0"], [1, "box__left", "bg-primary"], [1, "h5", "mb-0", "text-light"], [1, "m-0", "p-0", "text-light"], [1, "row", "justify-content-center", "mb-5", "mt-5", "pt-5"], [1, "col"], [1, "col-md-8", "d-flex", "align-items-center", "center"], [2, "max-width", "769px"], [1, "mb-2"], [1, "mb-sm-4"], ["class", "col-md-4 mb-4", "data-aos", "zoom-in", 4, "ngFor", "ngForOf"], [1, "bg-primary", "mb-5", "py-5"], [1, "container"], [1, "h3", "mb-0", "text-light"], ["data-carousel-options", "{\"items\": 4, \"speed\": 800, \"autoplay\": \"true\", \"responsive\": {\"0\":{\"items\":1},\"500\":{\"items\":2},\"768\":{\"items\":3},\"992\":{\"items\":4}}}", 1, "tns-carousel-inner", "row", "h-100", "d-flex", "gx-4", "mx-0", "py-md-4", "py-3"], ["class", "col h-100", 4, "ngFor", "ngForOf"], [1, "container", "mb-5", "mt-n1", "mt-lg-0"], [1, "tns-carousel-wrapper", "tns-nav-outside", "tns-nav-outside-flush", "mx-n2"], ["data-carousel-options", "{\"items\": 3, \"controls\": false, \"responsive\": {\"0\":{\"items\":1},\"500\":{\"items\":2},\"768\":{\"items\":3}}}", 1, "tns-carousel-inner", "row", "gx-4", "mx-0", "py-3"], ["class", "col", 4, "ngFor", "ngForOf"], [1, "d-flex", "justify-content-center", "align-items-center", "px-lg-5"], [1, "img-overlay", "opacity-20"], [1, "content-overlay", "d-flex", "justify-content-center", "align-items-center"], [2, "max-width", "52rem", "z-index", "10"], [1, "text-center", "text-lg-nowrap", "mt-5", "p-2", "py-sm-2"], [1, "text-light", "display-5", "from-start", "delay-1"], [1, "fs-lg", "text-light", "pb-3", "from-start", "delay-2"], [1, "col-3"], [1, "icon-box", "card", "card-body", "h-100", "border-0", "shadow-md", "bg-secondary", "card-hover", "h-100", 3, "href"], [1, "bg-primary", "mb-2", 2, "width", "50px", "height", "6px"], [1, "icon-box-title", "fs-base", "mb-0"], ["data-aos", "zoom-in", 1, "col-md-4", "mb-4"], [3, "data"], [1, "col", "h-100"], [1, "card", "shadow-sm", "card-hover", "border-0", 3, "href"], [1, "card-img-top", "card-img-hover"], [1, "img-overlay", "opacity-50"], [2, "height", "16rem", "object-fit", "cover", 3, "src", "alt"], [1, "card-body", "text-center", 2, "min-height", "6rem"], [1, "mb-0", "fs-base", "text-nav"], [1, "card", "card-hover", "border-0", "h-100", "pb-2", "pb-sm-3", "px-sm-3", "text-center"], ["alt", "Illustration", 1, "d-block", "w-100", "my-3", "rounded-3", 2, "height", "16rem", "object-fit", "cover", 3, "src"], [1, "card-body"], [1, "h4", "card-title"], [1, "card-text", "fs-sm"]], template: function HomeComponent_Template(rf, ctx) { if (rf & 1) {
+HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HomeComponent, selectors: [["app-home"]], decls: 72, vars: 5, consts: [[1, "tns-carousel-wrapper", "mb-5"], ["data-carousel-options", "{\"mode\": \"gallery\", \"speed\": 50, \"autoplay\": \"true\", \"responsive\": {\"0\":{\"nav\":true, \"controls\": false},\"992\":{\"nav\":false, \"controls\": true}}}", 1, "tns-carousel-inner"], ["class", "d-flex justify-content-center align-items-center px-lg-5", 3, "style", 4, "ngFor", "ngForOf"], [1, "container", "mb-5"], [1, "d-flex", "align-items-center", "justify-content-between", "mb-3"], [1, "h3", "mb-0"], ["routerLink", "/nos-offres", 1, "btn", "btn-link", "d-none", "d-sm-block", "fw-normal", "ms-md-3", "pb-0"], [1, "fi-arrow-long-right", "ms-2"], [1, "tns-carousel-wrapper", "tns-controls-outside-xxl", "tns-nav-outside", "tns-nav-outside-flush", "mx-n2"], ["data-carousel-options", "{\"items\": 5, \"controls\": false, \"speed\": 500, \"autoplay\": \"true\", \"responsive\": {\"0\":{\"items\":1},\"500\":{\"items\":3},\"768\":{\"items\":4},\"992\":{\"items\":4}}}", 1, "tns-carousel-inner", "row", "gx-4", "mx-0", "py-3"], ["class", "col-3", 4, "ngFor", "ngForOf"], [1, "bg-secondary", "mb-5", "py-3"], [1, "container", "team-section"], [1, "mb-3"], [2, "font-weight", "300"], [1, "mb-0"], [1, "row", "justify-content-center"], ["data-aos", "fade-down", 1, "col-md-6", "d-flex", "justify-content-center", "align-items-center"], ["src", "assets/img/korumaak/home/6.jpg", 1, "rounded-3", "work-img"], [1, "col-md-6"], [1, "row"], ["data-aos", "fade-right", 1, "col-md-12"], [1, "box__right", "bg-light"], [1, "text"], [1, "h5", "mb-0", "text-primary"], [1, "m-0", "p-0"], [1, "box__left", "bg-primary"], [1, "h5", "mb-0", "text-light"], [1, "m-0", "p-0", "text-light"], [1, "row", "justify-content-center", "mb-5", "mt-5", "pt-5"], [1, "col"], [1, "col-md-8", "d-flex", "align-items-center", "center"], [2, "max-width", "769px"], [1, "mb-2"], [1, "mb-sm-4"], ["class", "col-md-4 mb-4", "data-aos", "zoom-in", 4, "ngFor", "ngForOf"], [1, "bg-primary", "mb-5", "py-5"], [1, "container"], [1, "h3", "mb-0", "text-light"], ["data-carousel-options", "{\"items\": 4, \"speed\": 800, \"autoplay\": \"true\", \"responsive\": {\"0\":{\"items\":1},\"500\":{\"items\":2},\"768\":{\"items\":3},\"992\":{\"items\":4}}}", 1, "tns-carousel-inner", "row", "h-100", "d-flex", "gx-4", "mx-0", "py-md-4", "py-3"], ["class", "col h-100", 4, "ngFor", "ngForOf"], [1, "container", "mb-5", "mt-n1", "mt-lg-0"], [1, "tns-carousel-wrapper", "tns-nav-outside", "tns-nav-outside-flush", "mx-n2"], ["data-carousel-options", "{\"items\": 3, \"controls\": false, \"responsive\": {\"0\":{\"items\":1},\"500\":{\"items\":2},\"768\":{\"items\":3}}}", 1, "tns-carousel-inner", "row", "gx-4", "mx-0", "py-3"], ["class", "col", 4, "ngFor", "ngForOf"], [1, "d-flex", "justify-content-center", "align-items-center", "px-lg-5"], [1, "img-overlay", "opacity-20"], [1, "content-overlay", "d-flex", "justify-content-center", "align-items-center"], [2, "max-width", "52rem", "z-index", "10"], [1, "text-center", "text-lg-nowrap", "mt-5", "p-2", "py-sm-2"], [1, "text-light", "display-5", "from-start", "delay-1"], [1, "fs-lg", "text-light", "pb-3", "from-start", "delay-2"], [1, "col-3"], [1, "icon-box", "card", "card-body", "h-100", "border-0", "shadow-md", "bg-secondary", "card-hover", "h-100", 3, "href"], [1, "bg-primary", "mb-2", 2, "width", "50px", "height", "6px"], [1, "icon-box-title", "fs-base", "mb-0"], ["data-aos", "zoom-in", 1, "col-md-4", "mb-4"], [3, "data"], [1, "col", "h-100"], [1, "card", "shadow-sm", "card-hover", "border-0"], [1, "card-img-top", "card-img-hover"], [1, "img-overlay", "opacity-50"], [2, "height", "16rem", "object-fit", "cover", 3, "src", "alt"], [1, "card-body", "text-center", 2, "min-height", "4rem"], [1, "mb-0", "fs-base", "text-nav"], [1, "card", "card-hover", "border-0", "h-100", "pb-2", "pb-sm-3", "px-sm-3", "text-center"], ["alt", "Illustration", 1, "d-block", "w-100", "my-3", "rounded-3", 2, "height", "16rem", "object-fit", "cover", 3, "src"], [1, "card-body"], [1, "h4", "card-title"], [1, "card-text", "fs-sm"]], template: function HomeComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "section", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, HomeComponent_div_2_Template, 9, 5, "div", 2);
@@ -1931,52 +1935,51 @@ HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComp
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "div", 11);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "section", 12);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "div", 13);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "div", 14);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](17, "img", 15);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "h2");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "span", 14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, "Faites confiance \u00E0 une \u00E9quipe");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "div", 16);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "div", 17);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "div", 18);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "h2");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "span", 19);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](23, "Faites confiance \u00E0 une \u00E9quipe");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](19, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](20, " authentique, engag\u00E9e, et proche de ses clients ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](24, " dynamique et professionnelle");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "p", 20);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](26, " Notre force r\u00E9side en nos valeurs car elles guident nos actions au quotidien et constituent le socle de travail de notre \u00E9quipe. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "p", 15);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](22, " Notre force r\u00E9side en nos valeurs car elles guident nos actions au quotidien et constituent le socle de travail de notre \u00E9quipe. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "div", 16);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "div", 17);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](25, "img", 18);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "div", 17);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "div", 19);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "div", 20);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "div", 21);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "div", 22);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](30, "div", 23);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "h3", 24);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](32, "Une \u00E9quipe professionnelle");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](32, "Authentique");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](33, "p", 25);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](34, "La comp\u00E9tence, l\u2019excellence, le savoir-faire et la formation professionnelle continue constituent notre cr\u00E9do.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](34, " L\u2019essor \u00E9nerg\u00E9tique local, le d\u00E9veloppement de nos savoir-faire et la performance durable sont, dans un contexte de conduite du changement, au c\u0153ur de notre strat\u00E9gie de coop\u00E9ration et d\u2019innovation. Korumaak promeut la coop\u00E9ration et l\u2019investissement dans l\u2019humain. La souverainet\u00E9 \u00E9nerg\u00E9tique comme choix ! ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](35, "div", 26);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](36, "div", 23);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](37, "h3", 27);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](38, "Une \u00E9quipe qui innove");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](38, "Engag\u00E9e");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](39, "p", 28);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](40, "Notre \u00E9quipe se perfectionne continuellement pour vous apporter des solutions toujours plus innovantes et \u00E0 la pointe de la technologie.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](40, " La dynamique de notre r\u00E9seau local, notre solidarit\u00E9 collective et une culture inh\u00E9rente de r\u00E9sultats attestent de notre engagement dans les divers projets de transformation \u00E9nerg\u00E9tique auxquels nous participons. Le tissu tant local qu\u2019international comme partenaire, nous favorisons la diversit\u00E9 et le collaboratif. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](41, "div", 22);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](42, "div", 23);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](43, "h3", 24);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](44, " Une \u00E9quipe int\u00E8gre");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](44, "Proche de ses clients");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](45, "p", 25);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](46, "Maintenir des relations de proximit\u00E9 et transparentes avec nos clients pour satisfaire leurs attentes.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](46, " L\u2019accompagnement sans faille, la s\u00E9curit\u00E9 et la proximit\u00E9 avec nos clients constituent des enjeux cruciaux auxquels nous veillons particuli\u00E8rement pour garantir la satisfaction client en toutes circonstances. Nous sommes \u00E0 l\u2019\u00E9coute de tous et valorisons un cadre et un \u00E9cosyst\u00E8me de travail inclusifs. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -1989,13 +1992,13 @@ HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComp
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](47, "section", 3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](48, "div", 29);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](49, "div", 30);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](50, "div", 17);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](50, "div", 20);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](51, "div", 31);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](52, "div", 32);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](53, "h2", 33);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](54, "Un accompagnent rigoureux et un service apr\u00E8s vente ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](55, "span", 19);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](56, "guarantis");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](55, "span", 14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](56, "garantis");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](57, "p", 34);
@@ -2017,7 +2020,7 @@ HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComp
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](65, "div", 8);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](66, "div", 39);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](67, HomeComponent_div_67_Template, 8, 4, "div", 40);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](67, HomeComponent_div_67_Template, 8, 3, "div", 40);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -2040,7 +2043,7 @@ HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComp
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.listCountries);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.listBusinessLine);
-    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["NgForOf"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterLinkWithHref"], _components_flipcard_flipcard_component__WEBPACK_IMPORTED_MODULE_3__["FlipcardComponent"]], styles: [".team-section[_ngcontent-%COMP%] {\n    padding: 5em 0.7rem;\n    .work-img {\n      height: 680px;\n      width: auto;\n      border-radius: 1rem;\n    }\n\n    .box__right,\n    .box__left {\n      display: flex;\n      cursor: pointer;\n      margin: 1.6rem 0;\n      padding: 1em;\n      border-radius: 0.5rem;\n      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);\n      transition: transform 0.5s ease-out;\n    }\n\n    .box__right {\n      margin-left: 50px;\n      &:hover {\n        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);\n        transform: translate(-50px, 0);\n      }\n    }\n    .box__left {\n      margin-right: 50px;\n      &:hover {\n        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);\n        transform: translate(50px, 0);\n      }\n    }\n}\n\n\n\n@media (max-width: 768px) {\n    .team-section[_ngcontent-%COMP%] {\n      padding: 3.2em 0.7rem;\n      .work-img {\n        display: none;\n      }\n      .box__right,\n      .box__left {\n        margin: 1rem 0rem;\n        &:hover {\n          box-shadow: var(--button-shadow-hover);\n          transform: translate(0, -5px);\n        }\n      }\n    }\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvaG9tZS9ob21lLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxtQkFBbUI7SUFDbkI7TUFDRSxhQUFhO01BQ2IsV0FBVztNQUNYLG1CQUFtQjtJQUNyQjs7SUFFQTs7TUFFRSxhQUFhO01BQ2IsZUFBZTtNQUNmLGdCQUFnQjtNQUNoQixZQUFZO01BQ1oscUJBQXFCO01BQ3JCLDBDQUEwQztNQUMxQyxtQ0FBbUM7SUFDckM7O0lBRUE7TUFDRSxpQkFBaUI7TUFDakI7UUFDRSwwQ0FBMEM7UUFDMUMsOEJBQThCO01BQ2hDO0lBQ0Y7SUFDQTtNQUNFLGtCQUFrQjtNQUNsQjtRQUNFLDBDQUEwQztRQUMxQyw2QkFBNkI7TUFDL0I7SUFDRjtBQUNKOzs7O0FBSUE7SUFDSTtNQUNFLHFCQUFxQjtNQUNyQjtRQUNFLGFBQWE7TUFDZjtNQUNBOztRQUVFLGlCQUFpQjtRQUNqQjtVQUNFLHNDQUFzQztVQUN0Qyw2QkFBNkI7UUFDL0I7TUFDRjtJQUNGO0FBQ0oiLCJmaWxlIjoic3JjL2FwcC9wYWdlcy9ob21lL2hvbWUuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi50ZWFtLXNlY3Rpb24ge1xuICAgIHBhZGRpbmc6IDVlbSAwLjdyZW07XG4gICAgLndvcmstaW1nIHtcbiAgICAgIGhlaWdodDogNjgwcHg7XG4gICAgICB3aWR0aDogYXV0bztcbiAgICAgIGJvcmRlci1yYWRpdXM6IDFyZW07XG4gICAgfVxuXG4gICAgLmJveF9fcmlnaHQsXG4gICAgLmJveF9fbGVmdCB7XG4gICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgY3Vyc29yOiBwb2ludGVyO1xuICAgICAgbWFyZ2luOiAxLjZyZW0gMDtcbiAgICAgIHBhZGRpbmc6IDFlbTtcbiAgICAgIGJvcmRlci1yYWRpdXM6IDAuNXJlbTtcbiAgICAgIGJveC1zaGFkb3c6IDAgNHB4IDhweCAwIHJnYmEoMCwgMCwgMCwgMC4yKTtcbiAgICAgIHRyYW5zaXRpb246IHRyYW5zZm9ybSAwLjVzIGVhc2Utb3V0O1xuICAgIH1cblxuICAgIC5ib3hfX3JpZ2h0IHtcbiAgICAgIG1hcmdpbi1sZWZ0OiA1MHB4O1xuICAgICAgJjpob3ZlciB7XG4gICAgICAgIGJveC1zaGFkb3c6IDAgNHB4IDhweCAwIHJnYmEoMCwgMCwgMCwgMC4yKTtcbiAgICAgICAgdHJhbnNmb3JtOiB0cmFuc2xhdGUoLTUwcHgsIDApO1xuICAgICAgfVxuICAgIH1cbiAgICAuYm94X19sZWZ0IHtcbiAgICAgIG1hcmdpbi1yaWdodDogNTBweDtcbiAgICAgICY6aG92ZXIge1xuICAgICAgICBib3gtc2hhZG93OiAwIDRweCA4cHggMCByZ2JhKDAsIDAsIDAsIDAuMik7XG4gICAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlKDUwcHgsIDApO1xuICAgICAgfVxuICAgIH1cbn1cblxuXG5cbkBtZWRpYSAobWF4LXdpZHRoOiA3NjhweCkge1xuICAgIC50ZWFtLXNlY3Rpb24ge1xuICAgICAgcGFkZGluZzogMy4yZW0gMC43cmVtO1xuICAgICAgLndvcmstaW1nIHtcbiAgICAgICAgZGlzcGxheTogbm9uZTtcbiAgICAgIH1cbiAgICAgIC5ib3hfX3JpZ2h0LFxuICAgICAgLmJveF9fbGVmdCB7XG4gICAgICAgIG1hcmdpbjogMXJlbSAwcmVtO1xuICAgICAgICAmOmhvdmVyIHtcbiAgICAgICAgICBib3gtc2hhZG93OiB2YXIoLS1idXR0b24tc2hhZG93LWhvdmVyKTtcbiAgICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSgwLCAtNXB4KTtcbiAgICAgICAgfVxuICAgICAgfVxuICAgIH1cbn0iXX0= */"] });
+    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["NgForOf"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterLinkWithHref"], _components_flipcard_flipcard_component__WEBPACK_IMPORTED_MODULE_3__["FlipcardComponent"]], styles: [".team-section[_ngcontent-%COMP%] {\n    padding: 5em 0.7rem;\n    .work-img {\n      height: 680px;\n      width: 100%;\n      object-fit: cover;\n    }\n\n    .box__right,\n    .box__left {\n      display: flex;\n      cursor: pointer;\n      margin: 1.6rem 0;\n      padding: 1em;\n      border-radius: 0.5rem;\n      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);\n      transition: transform 0.5s ease-out;\n    }\n\n    .box__right {\n      margin-left: 50px;\n      &:hover {\n        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);\n        transform: translate(-50px, 0);\n      }\n    }\n    .box__left {\n      margin-right: 50px;\n      &:hover {\n        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);\n        transform: translate(50px, 0);\n      }\n    }\n}\n\n\n\n@media (max-width: 768px) {\n    .team-section[_ngcontent-%COMP%] {\n      padding: 3.2em 0.7rem;\n      .work-img {\n        height: 370px;\n      }\n      .box__right,\n      .box__left {\n        margin: 1rem 0rem;\n        &:hover {\n          box-shadow: var(--button-shadow-hover);\n          transform: translate(0, -5px);\n        }\n      }\n    }\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcGFnZXMvaG9tZS9ob21lLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxtQkFBbUI7SUFDbkI7TUFDRSxhQUFhO01BQ2IsV0FBVztNQUNYLGlCQUFpQjtJQUNuQjs7SUFFQTs7TUFFRSxhQUFhO01BQ2IsZUFBZTtNQUNmLGdCQUFnQjtNQUNoQixZQUFZO01BQ1oscUJBQXFCO01BQ3JCLDBDQUEwQztNQUMxQyxtQ0FBbUM7SUFDckM7O0lBRUE7TUFDRSxpQkFBaUI7TUFDakI7UUFDRSwwQ0FBMEM7UUFDMUMsOEJBQThCO01BQ2hDO0lBQ0Y7SUFDQTtNQUNFLGtCQUFrQjtNQUNsQjtRQUNFLDBDQUEwQztRQUMxQyw2QkFBNkI7TUFDL0I7SUFDRjtBQUNKOzs7O0FBSUE7SUFDSTtNQUNFLHFCQUFxQjtNQUNyQjtRQUNFLGFBQWE7TUFDZjtNQUNBOztRQUVFLGlCQUFpQjtRQUNqQjtVQUNFLHNDQUFzQztVQUN0Qyw2QkFBNkI7UUFDL0I7TUFDRjtJQUNGO0FBQ0oiLCJmaWxlIjoic3JjL2FwcC9wYWdlcy9ob21lL2hvbWUuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi50ZWFtLXNlY3Rpb24ge1xuICAgIHBhZGRpbmc6IDVlbSAwLjdyZW07XG4gICAgLndvcmstaW1nIHtcbiAgICAgIGhlaWdodDogNjgwcHg7XG4gICAgICB3aWR0aDogMTAwJTtcbiAgICAgIG9iamVjdC1maXQ6IGNvdmVyO1xuICAgIH1cblxuICAgIC5ib3hfX3JpZ2h0LFxuICAgIC5ib3hfX2xlZnQge1xuICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICAgIG1hcmdpbjogMS42cmVtIDA7XG4gICAgICBwYWRkaW5nOiAxZW07XG4gICAgICBib3JkZXItcmFkaXVzOiAwLjVyZW07XG4gICAgICBib3gtc2hhZG93OiAwIDRweCA4cHggMCByZ2JhKDAsIDAsIDAsIDAuMik7XG4gICAgICB0cmFuc2l0aW9uOiB0cmFuc2Zvcm0gMC41cyBlYXNlLW91dDtcbiAgICB9XG5cbiAgICAuYm94X19yaWdodCB7XG4gICAgICBtYXJnaW4tbGVmdDogNTBweDtcbiAgICAgICY6aG92ZXIge1xuICAgICAgICBib3gtc2hhZG93OiAwIDRweCA4cHggMCByZ2JhKDAsIDAsIDAsIDAuMik7XG4gICAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlKC01MHB4LCAwKTtcbiAgICAgIH1cbiAgICB9XG4gICAgLmJveF9fbGVmdCB7XG4gICAgICBtYXJnaW4tcmlnaHQ6IDUwcHg7XG4gICAgICAmOmhvdmVyIHtcbiAgICAgICAgYm94LXNoYWRvdzogMCA0cHggOHB4IDAgcmdiYSgwLCAwLCAwLCAwLjIpO1xuICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSg1MHB4LCAwKTtcbiAgICAgIH1cbiAgICB9XG59XG5cblxuXG5AbWVkaWEgKG1heC13aWR0aDogNzY4cHgpIHtcbiAgICAudGVhbS1zZWN0aW9uIHtcbiAgICAgIHBhZGRpbmc6IDMuMmVtIDAuN3JlbTtcbiAgICAgIC53b3JrLWltZyB7XG4gICAgICAgIGhlaWdodDogMzcwcHg7XG4gICAgICB9XG4gICAgICAuYm94X19yaWdodCxcbiAgICAgIC5ib3hfX2xlZnQge1xuICAgICAgICBtYXJnaW46IDFyZW0gMHJlbTtcbiAgICAgICAgJjpob3ZlciB7XG4gICAgICAgICAgYm94LXNoYWRvdzogdmFyKC0tYnV0dG9uLXNoYWRvdy1ob3Zlcik7XG4gICAgICAgICAgdHJhbnNmb3JtOiB0cmFuc2xhdGUoMCwgLTVweCk7XG4gICAgICAgIH1cbiAgICAgIH1cbiAgICB9XG59Il19 */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](HomeComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -2075,14 +2078,14 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-function JoinUsComponent_div_17_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 44);
+function JoinUsComponent_div_24_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 45);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 45);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "h3", 46);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 46);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "h3", 47);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "p", 47);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "p", 48);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -2141,7 +2144,7 @@ class JoinUsComponent {
     }
 }
 JoinUsComponent.ɵfac = function JoinUsComponent_Factory(t) { return new (t || JoinUsComponent)(); };
-JoinUsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: JoinUsComponent, selectors: [["app-join-us"]], decls: 80, vars: 1, consts: [[1, "container", "mt-5", "mb-md-4", "pt-5"], ["aria-label", "breadcrumb", 1, "mb-3", "pt-md-3"], [1, "breadcrumb"], [1, "breadcrumb-item"], ["routerLink", "/"], ["aria-current", "page", 1, "breadcrumb-item", "active"], [1, "container", "mb-5", "pb-2", "pb-md-4", "pb-lg-5"], [1, "mx-md-0", "mx-auto", "text-md-start", "text-center", 2, "max-width", "456px"], [1, "mb-4"], [1, "mb-0", "fs-lg", "text-muted"], [1, "mb-md-5", "mb-4", "pb-md-4"], [1, "tns-carousel-wrapper", "tns-controls-outside-xxl", "tns-nav-outside", "tns-nav-outside-flush", "mx-n2"], ["data-carousel-options", "{\"items\": 5, \"controls\": false, \"speed\": 500, \"autoplay\": \"true\", \"responsive\": {\"0\":{\"items\":2},\"500\":{\"items\":3},\"768\":{\"items\":4},\"992\":{\"items\":4}}}", 1, "tns-carousel-inner", "row", "gx-4", "mx-0", "py-3"], ["class", "col", 4, "ngFor", "ngForOf"], [1, "row", "align-items-md-start", "align-items-center", "gy-4"], [1, "col-lg-5", "col-md-6"], [1, "row", "g-4"], [1, "col-md-12"], ["href", "mailto:contact@korumaak.com", 1, "icon-box", "card", "card-hover", "h-100"], [1, "card-body"], [1, "icon-box-media", "text-primary", "rounded-circle", "shadow-sm", "mb-3"], [1, "fi-mail"], [1, "d-block", "mb-1", "text-body"], [1, "h4", "text-primary", "mb-0", "opacity-90"], ["target", "_blank", "href", "https://wa.me/+xxxxxx", 1, "icon-box", "card", "card-hover", "h-100"], [1, "fi-whatsapp"], ["href", "tel:+22xxxxx", 1, "icon-box", "card", "card-hover", "h-100"], [1, "fi-device-mobile"], [1, "col-md-6", "offset-lg-1"], [1, "card", "border-0", "bg-faded-primary", "p-sm-3", "p-2"], ["method", "post", "action", "https://send.pageclip.co/xxxxxxxxxxx", "novalidate", "", 1, "needs-validation"], ["for", "contact-name", 1, "form-label"], ["name", "name", "id", "contact-name", "type", "text", "required", "", 1, "form-control", "form-control-lg"], [1, "invalid-tooltip", "mt-1"], ["for", "contact-email", 1, "form-label"], ["id", "contact-email", "name", "email", "type", "email", "required", "", 1, "form-control", "form-control-lg"], ["id", "subject", "name", "subject", "aria-label", "Select subject", "required", "", 1, "form-select", "mb-4"], ["value", "Demande de devis"], ["value", "Demande d'information"], ["value", "Autres"], ["for", "contact-comment", 1, "form-label"], ["name", "body", "placeholder", "D\u00E9crivez nous votre profil", "id", "contact-comment", "rows", "4", "required", "", 1, "form-control"], [1, "pt-sm-2", "pt-1"], ["type", "submit", 1, "btn", "btn-lg", "btn-primary", "w-sm-auto", "w-100"], [1, "col"], [1, "card-body", "icon-box"], [1, "h5", "card-title"], [1, "card-text", "fs-sm"]], template: function JoinUsComponent_Template(rf, ctx) { if (rf & 1) {
+JoinUsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: JoinUsComponent, selectors: [["app-join-us"]], decls: 93, vars: 1, consts: [[1, "container", "mt-5", "mb-md-4", "pt-5"], ["aria-label", "breadcrumb", 1, "mb-3", "pt-md-3"], [1, "breadcrumb"], [1, "breadcrumb-item"], ["routerLink", "/"], ["aria-current", "page", 1, "breadcrumb-item", "active"], [1, "container", "mb-5", "pb-2", "pb-md-4", "pb-lg-5"], [1, "mx-md-0", "mx-auto", "text-md-start", "text-center"], [1, "mb-4"], [1, "border-start", "border-5", "border-primary", "ps-3"], [1, ""], [1, "tns-carousel-wrapper", "tns-controls-outside-xxl", "tns-nav-outside", "tns-nav-outside-flush", "mx-n2"], ["data-carousel-options", "{\"items\": 5, \"controls\": false, \"speed\": 500, \"autoplay\": \"true\", \"responsive\": {\"0\":{\"items\":1},\"500\":{\"items\":2},\"768\":{\"items\":4},\"992\":{\"items\":4}}}", 1, "tns-carousel-inner", "row", "gx-4", "mx-0", "py-3"], ["class", "col", 4, "ngFor", "ngForOf"], [1, "mb-0", "fs-lg", "text-muted"], [1, "row", "align-items-md-start", "align-items-center", "gy-4"], [1, "col-lg-5", "col-md-6"], [1, "row", "g-4"], [1, "col-md-12"], ["href", "mailto:contact@korumaak.com", 1, "icon-box", "card", "card-hover", "h-100"], [1, "card-body"], [1, "icon-box-media", "text-primary", "rounded-circle", "shadow-sm", "mb-3"], [1, "fi-mail"], [1, "d-block", "mb-1", "text-body"], [1, "h4", "text-primary", "mb-0", "opacity-90"], ["target", "_blank", "href", "https://wa.me/+xxxxxx", 1, "icon-box", "card", "card-hover", "h-100"], [1, "fi-whatsapp"], ["href", "tel:+22xxxxx", 1, "icon-box", "card", "card-hover", "h-100"], [1, "fi-device-mobile"], [1, "col-md-6", "offset-lg-1"], [1, "card", "border-0", "bg-faded-primary", "p-sm-3", "p-2"], ["method", "post", "action", "https://send.pageclip.co/xxxxxxxxxxx", "novalidate", "", 1, "needs-validation"], ["for", "contact-name", 1, "form-label"], ["name", "name", "id", "contact-name", "type", "text", "required", "", 1, "form-control", "form-control-lg"], [1, "invalid-tooltip", "mt-1"], ["for", "contact-email", 1, "form-label"], ["id", "contact-email", "name", "email", "type", "email", "required", "", 1, "form-control", "form-control-lg"], ["id", "subject", "name", "subject", "aria-label", "Select subject", "required", "", 1, "form-select", "mb-4"], ["value", "Demande de devis"], ["value", "Demande d'information"], ["value", "Autres"], ["for", "contact-comment", 1, "form-label"], ["name", "body", "placeholder", "D\u00E9crivez nous votre profil", "id", "contact-comment", "rows", "4", "required", "", 1, "form-control"], [1, "pt-sm-2", "pt-1"], ["type", "submit", 1, "btn", "btn-lg", "btn-primary", "w-sm-auto", "w-100"], [1, "col"], [1, "card-body", "icon-box"], [1, "h5", "card-title"], [1, "card-text", "fs-sm"]], template: function JoinUsComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "nav", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "ol", 2);
@@ -2151,7 +2154,7 @@ JoinUsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCo
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "li", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, "Notre \u00E9quique");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, "Qui sommes-nous?");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -2159,114 +2162,135 @@ JoinUsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCo
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "section", 6);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "div", 7);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "h1", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11, "Vous avez un nouveau projet?");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11, "Qui sommes-nous ?");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "p", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, " Contactez Korumaak, votre \u00E9quipe d'experts ! ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "div", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14, " Nouvel acteur de la sous-r\u00E9gion, le Groupe Korumaak Activities est n\u00E9 d\u2019une volont\u00E9 de souverainet\u00E9 \u00E9nerg\u00E9tique pour le S\u00E9n\u00E9gal et l\u2019Afrique. La mat\u00E9rialisation de cette volont\u00E9 passe par la maitrise des technologies des \u00E9nergies renouvelables. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](16, " L\u2019ambition ? Les d\u00E9ployer et en faciliter l\u2019acc\u00E8s aux populations autochtones locales. Fort de cette aspiration, Korumaak Activities a aujourd\u2019hui d\u00E9cid\u00E9 de prendre le virage du photovolta\u00EFque pour offrir \u00E0 ses clients une gamme de services abordables, vertueux et responsables pour une production d\u2019\u00E9nergie solaire adapt\u00E9e aux enjeux des consommations locales. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "div", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "div", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "div", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](17, JoinUsComponent_div_17_Template, 7, 5, "div", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, " Dynamique et engag\u00E9e, notre \u00E9quipe place au c\u0153ur de sa strat\u00E9gie, l\u2019innovation (via notre service R&D) et la satisfaction client : L\u2019humain est le centre de gravit\u00E9 de notre d\u00E9marche et votre souverainet\u00E9 \u00E9nerg\u00E9tique, la cheville ouvri\u00E8re de notre philosophie. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "div", 14);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "div", 15);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "div", 16);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "div", 17);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "a", 18);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "div", 19);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "div", 20);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](25, "i", 21);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "span", 22);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](27, "Email");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "h3", 23);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](29, "contact@korumaak.com");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](20, " Notre objectif ? Faire de vous des acteurs de la transition \u00E9nerg\u00E9tique tout en contribuant \u00E0 r\u00E9duire vos factures d\u2019\u00E9lectricit\u00E9 pour une \u00E9nergie meilleure ! ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](30, "div", 17);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "a", 24);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "div", 19);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](33, "div", 20);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](34, "i", 25);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](35, "span", 22);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](36, "\u00C9crivez nous sur WhatsApp");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](37, "h3", 23);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](38, "(+33) 778xxxxxxxx");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](39, "div", 17);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](40, "a", 26);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](41, "div", 19);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](42, "div", 20);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](43, "i", 27);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](44, "span", 22);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](45, "Nous appeler");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](46, "h3", 23);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](47, "(+22x) 7xxxx ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "div", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "div", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "div", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](24, JoinUsComponent_div_24_Template, 7, 5, "div", 13);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "section", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "div", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "h1", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](28, "Vous avez un nouveau projet?");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](48, "div", 28);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](49, "div", 29);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](50, "div", 19);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](51, "form", 30);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](52, "div", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](53, "label", 31);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](54, "Nom Pr\u00E9nom");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](55, "input", 32);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](56, "div", 33);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](57, "Nom et pr\u00E9nom obligatoires");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "p", 14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](30, " Contactez Korumaak, votre \u00E9quipe d'experts ! ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](58, "div", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](59, "label", 34);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](60, "Votre Email");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "div", 15);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "div", 16);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](33, "div", 17);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "div", 18);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](35, "a", 19);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](36, "div", 20);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](37, "div", 21);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](38, "i", 22);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](61, "input", 35);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](62, "div", 33);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](63, "Email obligatoire");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](39, "span", 23);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](40, "Email");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](41, "h3", 24);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](42, "contact@korumaak.com");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](64, "select", 36);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](65, "option", 37);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](66, "Demande de devis");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](67, "option", 38);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](68, "Demande d'information");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](69, "option", 39);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](70, "Autres");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](43, "div", 18);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](44, "a", 25);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](45, "div", 20);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](46, "div", 21);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](47, "i", 26);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](48, "span", 23);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](49, "\u00C9crivez nous sur WhatsApp");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](50, "h3", 24);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](51, "(+221) 778xxxxxxxx");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](52, "div", 18);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](53, "a", 27);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](54, "div", 20);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](55, "div", 21);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](56, "i", 28);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](57, "span", 23);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](58, "Nous appeler");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](59, "h3", 24);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](60, "(+22x) 7xxxx ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](61, "div", 29);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](62, "div", 30);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](63, "div", 20);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](64, "form", 31);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](65, "div", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](66, "label", 32);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](67, "Nom Pr\u00E9nom");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](68, "input", 33);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](69, "div", 34);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](70, "Nom et pr\u00E9nom obligatoires");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](71, "div", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](72, "label", 40);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](73, "Message");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](72, "label", 35);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](73, "Votre Email");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](74, "textarea", 41);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](75, "div", 33);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](76, "Laisser nous un message");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](74, "input", 36);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](75, "div", 34);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](76, "Email obligatoire");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](77, "div", 42);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](78, "button", 43);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](79, "Envoyer");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](77, "select", 37);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](78, "option", 38);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](79, "Demande de devis");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](80, "option", 39);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](81, "Demande d'information");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](82, "option", 40);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](83, "Autres");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](84, "div", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](85, "label", 41);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](86, "Message");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](87, "textarea", 42);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](88, "div", 34);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](89, "Laisser nous un message");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](90, "div", 43);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](91, "button", 44);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](92, "Envoyer");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -2276,7 +2300,7 @@ JoinUsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCo
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } if (rf & 2) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](17);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](24);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.listBusinessLine);
     } }, directives: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterLinkWithHref"], _angular_common__WEBPACK_IMPORTED_MODULE_2__["NgForOf"], _angular_forms__WEBPACK_IMPORTED_MODULE_3__["ɵangular_packages_forms_forms_y"], _angular_forms__WEBPACK_IMPORTED_MODULE_3__["NgControlStatusGroup"], _angular_forms__WEBPACK_IMPORTED_MODULE_3__["NgForm"], _angular_forms__WEBPACK_IMPORTED_MODULE_3__["NgSelectOption"], _angular_forms__WEBPACK_IMPORTED_MODULE_3__["ɵangular_packages_forms_forms_x"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3BhZ2VzL2pvaW4tdXMvam9pbi11cy5jb21wb25lbnQuY3NzIn0= */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](JoinUsComponent, [{
@@ -2402,7 +2426,7 @@ class TravauxComponent {
     }
 }
 TravauxComponent.ɵfac = function TravauxComponent_Factory(t) { return new (t || TravauxComponent)(); };
-TravauxComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: TravauxComponent, selectors: [["app-travaux"]], decls: 91, vars: 2, consts: [[1, "container-fluid", "my-5", "pt-5", "pb-lg-4", "px-xxl-4"], ["data-jarallax", "", "data-speed", "0.5", 1, "jarallax", "bg-size", "card", "align-items-center", "justify-content-center", "border-0", "p-md-5", "p-4", "bg-secondary", "overflow-hidden", "mt-n3", 2, "background", "url(assets/img/korumaak/home/1.jpg) no-repeat", "background-size", "cover"], [1, "img-overlay", "opacity-40"], [1, "content-overlay", "container", "py-3"], ["aria-label", "breadcrumb", 1, ""], [1, "breadcrumb"], [1, "breadcrumb-item", "text-light"], ["routerLink", "/"], ["aria-current", "page", 1, "breadcrumb-item", "active"], [1, "col-lg-6", "col-md-6", "col-sm-8", "py-md-5", "py-4", "px-0"], [1, "display-4", "mb-4", "pb-md-2", "text-light"], ["id", "catalogue", 1, "container", "mb-5", "pb-2", "pb-lg-5"], [1, "mb-2", "pb-2", "me-auto", "fs-lg", 2, "max-width", "760px"], [1, "list-unstyled", "pb-lg-3"], [1, "d-flex"], [1, "fi-check", "mt-1", "me-2", "pe-1", "text-primary"], [1, "tns-carousel-wrapper", "tns-controls-outside-xxl", "tns-nav-outside", "tns-nav-outside-flush", "mx-n2"], ["data-carousel-options", "{\"items\": 5, \"controls\": false, \"speed\": 400, \"autoplay\": \"false\", \"responsive\": {\"0\":{\"items\":2},\"500\":{\"items\":3},\"768\":{\"items\":4},\"992\":{\"items\":4}}}", 1, "tns-carousel-inner", "row", "gx-4", "mx-0", "py-3"], ["class", "col", 4, "ngFor", "ngForOf"], ["id", "kits-solaires", 1, "container", "mb-5", "pb-2", "pb-lg-5"], [1, "row", "align-items-lg-center", "gy-4"], [1, "col-md-6"], ["src", "assets/img/korumaak/home/2.jpg", "alt", "Cover", 1, "rounded-3", "card-image", "w-100"], [1, "col-lg-5", "offset-lg-1", "col-md-6"], [1, "mb-lg-4"], [1, "mb-lg-4", "fs-md", "text-muted"], ["id", "paneaux-photovoltaiques", 1, "container", "mb-5", "pb-2", "pb-lg-5"], ["id", "installations", 1, "container", "mb-5", "pb-2", "pb-lg-5"], [1, "col-lg-5", "col-md-6"], [1, "col-md-6", "offset-lg-1"], ["src", "assets/img/korumaak/home/5.png", "alt", "Cover", 1, "rounded-3", "card-image", "w-100"], [1, "col"], [1, "icon-box-media-box", "h-100", "card", "card-body", "border-0", "shadow-sm", "d-flex", "align-items-center", "text-center"], [1, "h-100", "d-flex", "align-items-center"], ["alt", "product", 3, "src"], [3, "src"]], template: function TravauxComponent_Template(rf, ctx) { if (rf & 1) {
+TravauxComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: TravauxComponent, selectors: [["app-travaux"]], decls: 91, vars: 2, consts: [[1, "my-5", "pt-5", "pb-lg-4"], ["data-jarallax", "", "data-speed", "0.5", 1, "bg-size", "jarallax", "align-items-center", "justify-content-center", "border-0", "p-md-5", "p-4", "bg-secondary", "overflow-hidden", "mt-n3", 2, "background", "url(assets/img/korumaak/home/1.jpg) no-repeat", "background-size", "cover"], [1, "img-overlay", "opacity-40"], [1, "content-overlay", "container", "py-3"], ["aria-label", "breadcrumb", 1, ""], [1, "breadcrumb"], [1, "breadcrumb-item", "text-light"], ["routerLink", "/"], ["aria-current", "page", 1, "breadcrumb-item", "active"], [1, "col-lg-6", "col-md-6", "col-sm-8", "py-md-5", "py-4", "px-0"], [1, "display-4", "mb-4", "pb-md-2", "text-light"], ["id", "catalogue", 1, "container", "mb-5", "pb-2", "pb-lg-5"], [1, "mb-2", "pb-2", "me-auto", "fs-lg", 2, "max-width", "760px"], [1, "list-unstyled", "pb-lg-3"], [1, "d-flex"], [1, "fi-check", "mt-1", "me-2", "pe-1", "text-primary"], [1, "tns-carousel-wrapper", "tns-controls-outside-xxl", "tns-nav-outside", "tns-nav-outside-flush", "mx-n2"], ["data-carousel-options", "{\"items\": 5, \"controls\": false, \"speed\": 400, \"autoplay\": \"false\", \"responsive\": {\"0\":{\"items\":2},\"500\":{\"items\":3},\"768\":{\"items\":4},\"992\":{\"items\":4}}}", 1, "tns-carousel-inner", "row", "gx-4", "mx-0", "py-3"], ["class", "col", 4, "ngFor", "ngForOf"], ["id", "kits-solaires", 1, "container", "mb-5", "pb-2", "pb-lg-5"], [1, "row", "align-items-lg-center", "gy-4"], [1, "col-md-6"], ["src", "assets/img/korumaak/home/2.jpg", "alt", "Cover", 1, "rounded-3", "card-image", "w-100"], [1, "col-lg-5", "offset-lg-1", "col-md-6"], [1, "mb-lg-4"], [1, "mb-lg-4", "fs-md", "text-muted"], ["id", "paneaux-photovoltaiques", 1, "container", "mb-5", "pb-2", "pb-lg-5"], ["id", "installations", 1, "container", "mb-5", "pb-2", "pb-lg-5"], [1, "col-lg-5", "col-md-6"], [1, "col-md-6", "offset-lg-1"], ["src", "assets/img/korumaak/home/5.png", "alt", "Cover", 1, "rounded-3", "card-image", "w-100"], [1, "col"], [1, "icon-box-media-box", "h-100", "card", "card-body", "border-0", "shadow-sm", "d-flex", "align-items-center", "text-center"], [1, "h-100", "d-flex", "align-items-center"], ["alt", "product", 3, "src"], [3, "src"]], template: function TravauxComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "section", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "span", 2);
@@ -2432,7 +2456,7 @@ TravauxComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineC
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](16, "Des offres qualitatives adapt\u00E9es \u00E0 vos besoins");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "p", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, " Nous avons plusieurs types de panneaux solaires que nous proposons en fonction de vos besoins. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, " Notre panel d\u2019offres se base sur la disponibilit\u00E9 de plusieurs types de vari\u00E9t\u00E9s et puissances de panneaux solaires. C\u2019est l\u2019assurance de pouvoir r\u00E9pondre \u00E0 vos besoins en toute s\u00E9r\u00E9nit\u00E9 : ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "ul", 13);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "li", 14);
@@ -2464,7 +2488,7 @@ TravauxComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineC
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](38, "Installation et vente de Panneaux solaires");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](39, "p", 25);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](40, " Le professionnalisme de nos services d'installation garantit des solutions de production d\u2019\u00E9lectricit\u00E9 solaire harmonieuses, p\u00E9rennes et performantes. Nous r\u00E9pondons aux besoins des particuliers (individu,foyers, etc.), des professionnels (entreprises publics ou priv\u00E9es) et des collectivit\u00E9s du S\u00E9n\u00E9gal et de la sous-r\u00E9gion africaine. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](40, " Nous r\u00E9pondons aux besoins des particuliers (individu, foyers, etc.), des professionnels (entreprises publics ou priv\u00E9es) et des collectivit\u00E9s du S\u00E9n\u00E9gal et de la sous-r\u00E9gion africaine. Chaque demande (achat simple ou achat + besoin d\u2019installation) b\u00E9n\u00E9ficie d\u2019une offre personnalis\u00E9e. Nous r\u00E9alisons les projets qui s\u2019y pr\u00EAtent : ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](41, "ul", 13);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](42, "li", 14);
@@ -2481,7 +2505,7 @@ TravauxComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineC
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](51, "li", 14);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](52, "i", 15);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](53, "Solaire pour \u00E9clairage pubic ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](53, "Solaire pour \u00E9clairage public ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -2492,7 +2516,7 @@ TravauxComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineC
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](56, "Des kits solaires pour tous les budgets");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](57, "p", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](58, " Nous avons plusieurs kits solaires autonomes solaires que nous proposons en fonction de vos besoins. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](58, " Notre panoplie de kits solaires autonomes couvre les besoins locaux et favorise l\u2019opportunit\u00E9 d\u2019acc\u00E8s \u00E0 ces offres pour tous nos profils clients. Nous adaptons chaque offre \u00E0 la demande selon les besoins \u00E9nerg\u00E9tiques : ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](59, "ul", 13);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](60, "li", 14);
@@ -2521,7 +2545,7 @@ TravauxComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineC
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](76, "Diff\u00E9rents types d'installation");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](77, "p", 25);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](78, " Nous proposons des syst\u00E8mes flexibles de production d\u2019\u00E9nergie solaire totalement autonomes. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](78, " Nous proposons des syst\u00E8mes flexibles de production d\u2019\u00E9nergie solaire totalement autonomes avec \u00E0 la cl\u00E9 l\u2019installation la plus adapt\u00E9e \u00E0 l\u2019environnement de votre zone d\u2019implantation moyennant votre besoin : ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](79, "ul", 13);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](80, "li", 14);
